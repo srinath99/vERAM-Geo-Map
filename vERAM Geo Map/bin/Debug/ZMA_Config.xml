@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Facility>
+	<ID>ZMA</ID>
+	<Name>Miami ARTCC</Name>
+	<VisibilityRange>450</VisibilityRange>
+	<ObserverVisibilityRange>300</ObserverVisibilityRange>
+	<VisCenter1 Lon="-80.3490356" Lat="25.799617" />
+	<VisCenter2 Lon="-75.2638889" Lat="23.5805556" />
+	<VisCenter3 Lon="-71.14639" Lat="21.43667" />
+	<VisCenter4 Lon="0" Lat="0" />
+	<RadarSites>
+		<RadarSite IsPrimary="false" ID="BHF" Elevation="111" FloorSlope="0.3" PrimaryRange="250" SecondaryRange="250" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-78.664867" Lat="26.574314" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="CTY" Elevation="213" FloorSlope="0.3" PrimaryRange="250" SecondaryRange="250" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-83.001064" Lat="29.744053" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="FLL" Elevation="146" FloorSlope="0.3" PrimaryRange="60" SecondaryRange="60" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-80.171286" Lat="26.070578" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="GDT" Elevation="98" FloorSlope="0.3" PrimaryRange="250" SecondaryRange="250" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-71.144567" Lat="21.433531" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="MLB" Elevation="123" FloorSlope="0.3" PrimaryRange="250" SecondaryRange="250" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-80.798078" Lat="28.084275" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="MYN" Elevation="80" FloorSlope="0.3" PrimaryRange="240" SecondaryRange="240" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-77.466936" Lat="25.039564" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="NAW" Elevation="666" FloorSlope="0.3" PrimaryRange="250" SecondaryRange="250" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-75.159522" Lat="19.899956" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="NEN" Elevation="237" FloorSlope="0.3" PrimaryRange="250" SecondaryRange="250" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-81.874014" Lat="30.345914" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="NQX" Elevation="123" FloorSlope="0.3" PrimaryRange="250" SecondaryRange="250" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-81.689181" Lat="24.584692" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="QFK" Elevation="135" FloorSlope="0.3" PrimaryRange="250" SecondaryRange="250" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-75.773872" Lat="23.468269" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="QFN" Elevation="322" FloorSlope="0.3" PrimaryRange="250" SecondaryRange="250" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-82.007014" Lat="27.70055" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="QMA" Elevation="131" FloorSlope="0.3" PrimaryRange="250" SecondaryRange="250" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-80.505536" Lat="25.647272" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="QXX" Elevation="101" FloorSlope="0.3" PrimaryRange="200" SecondaryRange="200" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-71.672225" Lat="28.173856" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="QYY" Elevation="101" FloorSlope="0.3" PrimaryRange="60" SecondaryRange="60" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-70.865772" Lat="27.327322" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="RSW" Elevation="167" FloorSlope="0.3" PrimaryRange="60" SecondaryRange="60" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-81.768294" Lat="26.543908" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="VRB" Elevation="222" FloorSlope="0.3" PrimaryRange="60" SecondaryRange="120" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-80.82415" Lat="27.524819" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="ZQA" Elevation="88" FloorSlope="0.3" PrimaryRange="80" SecondaryRange="240" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-77.476367" Lat="25.03965" />
+		</RadarSite>
+	</RadarSites>
+	<TransitionAltitude>18000</TransitionAltitude>
+	<CALateralMinimum>5</CALateralMinimum>
+	<CAVerticalMinimum>1000</CAVerticalMinimum>
+	<CAFloor>0</CAFloor>
+	<Positions>
+		<PositionInfo InFacility="true" SectorName="PERMT 01" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="25320" SectorID="01" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="HOBEE HIGH 02" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="19820" SectorID="02" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="APOLO ULTRA HIGH 17" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="28650" SectorID="17" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="ADOOR HIGH 18" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="34350" SectorID="18" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="NUCAR 19" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="23670" SectorID="19" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="FREEPORT LOW 21" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="33400" SectorID="21" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="VERO BEACH TERMINAL 03" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="32250" SectorID="03" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="MELBOURNE LOW 04" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="35700" SectorID="04" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="PALM BEACH LOW 20" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="32150" SectorID="20" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="BAIRN 22" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="33470" SectorID="22" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="STOOP 23" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="26950" SectorID="23" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="ALUTO LOW 46" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="35170" SectorID="46" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="LA BELLE 47" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="32450" SectorID="47" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="AVON HIGH 64" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="26520" SectorID="64" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="BOYEL HIGH 65" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="25070" SectorID="65" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="LAKELAND LOW 66" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="34550" SectorID="66" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="LAKELAND HIGH 67" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="27200" SectorID="67" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="SEBRING ULTRAHIGH 68" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="33550" SectorID="68" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="MARATHON 05" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="33500" SectorID="05" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="KEY WEST 06" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="32200" SectorID="06" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="SARASOTA LOW 07" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="32350" SectorID="07" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="CIGAR 08" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="33900" SectorID="08" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="FORT MYERS LOW 24" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="32400" SectorID="24" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="FORT MYERS HIGH 25" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="28220" SectorID="25" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="HOMESTEAD 26" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="24700" SectorID="26" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="BIMINI HIGH 40" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="26320" SectorID="40" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="JUNUR LOW 41" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="35600" SectorID="41" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="BIMINI LOW 42" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="33850" SectorID="42" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="ABACO LOW 44" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="34200" SectorID="44" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="NASSAU LOW 61" RadioName="Miami Center" Prefix="MIA" Suffix="CTR" Frequency="25700" SectorID="61" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="GREAT INAUGUA 43" RadioName="Miami Center" Prefix="ZMO" Suffix="CTR" Frequency="23770" SectorID="43" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="MILLE 58" RadioName="Miami Center" Prefix="ZMO" Suffix="CTR" Frequency="26270" SectorID="58" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="ABACO 59" RadioName="Miami Center" Prefix="ZMO" Suffix="CTR" Frequency="34800" SectorID="59" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="GEORGETOWN 60" RadioName="Miami Center" Prefix="ZMO" Suffix="CTR" Frequency="27220" SectorID="60" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="GRAND TURK 62" RadioName="Miami Center" Prefix="ZMO" Suffix="CTR" Frequency="32300" SectorID="62" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="CERDA 63" RadioName="Miami Center" Prefix="ZMO" Suffix="CTR" Frequency="35200" SectorID="63" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="MIA North Departure - D" RadioName="Miami Departure" Prefix="MIA" Suffix="DEP" Frequency="19450" SectorID="MMD" PositionSymbol="D" />
+		<PositionInfo InFacility="false" SectorName="MIA South Departure - W" RadioName="Miami Departure" Prefix="MIA" Suffix="DEP" Frequency="25500" SectorID="MMW" PositionSymbol="W" />
+		<PositionInfo InFacility="false" SectorName="MIA North Feeder - N" RadioName="Miami Approach" Prefix="MIA" Suffix="APP" Frequency="25750" SectorID="MMN" PositionSymbol="N" />
+		<PositionInfo InFacility="false" SectorName="MIA South Feeder - S" RadioName="Miami Approach" Prefix="MIA" Suffix="APP" Frequency="20500" SectorID="MMS" PositionSymbol="S" />
+		<PositionInfo InFacility="false" SectorName="MIA North Final - V" RadioName="Miami Approach" Prefix="MIA" Suffix="APP" Frequency="24850" SectorID="MMV" PositionSymbol="V" />
+		<PositionInfo InFacility="false" SectorName="MIA South Final - A" RadioName="Miami Approach" Prefix="MIA" Suffix="APP" Frequency="33050" SectorID="MMA" PositionSymbol="A" />
+		<PositionInfo InFacility="false" SectorName="TMB Arrival/Departure - H" RadioName="Miami Approach" Prefix="MIA" Suffix="APP" Frequency="25250" SectorID="MMH" PositionSymbol="H" />
+		<PositionInfo InFacility="false" SectorName="FLL North Departure - L" RadioName="Miami Departure" Prefix="MIA" Suffix="DEP" Frequency="26050" SectorID="MML" PositionSymbol="L" />
+		<PositionInfo InFacility="false" SectorName="FLL South East Departure/West Arrival - Z" RadioName="Miami Approach" Prefix="MIA" Suffix="APP" Frequency="28600" SectorID="MMZ" PositionSymbol="Z" />
+		<PositionInfo InFacility="false" SectorName="FLL South West Departure/East Arrival - Q" RadioName="Miami Approach" Prefix="MIA" Suffix="APP" Frequency="26850" SectorID="MMQ" PositionSymbol="Q" />
+		<PositionInfo InFacility="false" SectorName="FLL North Feeder - R" RadioName="Miami Approach" Prefix="MIA" Suffix="APP" Frequency="33770" SectorID="MMR" PositionSymbol="R" />
+		<PositionInfo InFacility="false" SectorName="FLL North Final - F" RadioName="Miami Approach" Prefix="MIA" Suffix="APP" Frequency="33720" SectorID="MMF" PositionSymbol="F" />
+		<PositionInfo InFacility="false" SectorName="FLL South Feeder/Final - J" RadioName="Miami Approach" Prefix="MIA" Suffix="APP" Frequency="18100" SectorID="MMJ" PositionSymbol="J" />
+		<PositionInfo InFacility="false" SectorName="FXE Arrival/Departure - G" RadioName="Miami Approach" Prefix="MIA" Suffix="APP" Frequency="19700" SectorID="MMG" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="MIA Local North" RadioName="Miami Tower" Prefix="MIA" Suffix="TWR" Frequency="18300" SectorID="MT1" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="MIA Local South" RadioName="Miami Tower" Prefix="MIA" Suffix="TWR" Frequency="23900" SectorID="MT2" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="MIA Ground North" RadioName="Miami Ground" Prefix="MIA" Suffix="GND" Frequency="21800" SectorID="MG1" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="MIA Ground South" RadioName="Miami Ground" Prefix="MIA" Suffix="GND" Frequency="27500" SectorID="MG2" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="MIA Clearance Delivery" RadioName="Miami Clearance Delivery" Prefix="MIA" Suffix="DEL" Frequency="35350" SectorID="MD1" PositionSymbol="D" />
+		<PositionInfo InFacility="false" SectorName="MIA Gate Hold" RadioName="Miami Gate Hold" Prefix="MIA" Suffix="GND" Frequency="33720" SectorID="MG0" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="MIA Gates" RadioName="Miami Gates" Prefix="MIA" Suffix="GND" Frequency="30500" SectorID="MD2" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="MIA ATIS" RadioName="Miami International ATIS" Prefix="KMIA" Suffix="ATIS" Frequency="19150" SectorID="MA1" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="MIA ATIS" RadioName="Miami International ATIS" Prefix="KMIA" Suffix="ATIS" Frequency="33675" SectorID="MA2" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="FLL Local North" RadioName="Fort Lauderdale Tower" Prefix="FLL" Suffix="TWR" Frequency="19300" SectorID="MT3" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="FLL Local South" RadioName="Fort Lauderdale Tower" Prefix="FLL" Suffix="TWR" Frequency="20200" SectorID="MT4" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="FLL Ground" RadioName="Fort Lauderdale Ground" Prefix="FLL" Suffix="GND" Frequency="21400" SectorID="MG3" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="FLL Clearance Delivery" RadioName="Fort Lauderdale Clearance Delivery" Prefix="FLL" Suffix="DEL" Frequency="28400" SectorID="MD3" PositionSymbol="D" />
+		<PositionInfo InFacility="false" SectorName="FLL ATIS" RadioName="Fort Lauderdale International ATIS" Prefix="KFLL" Suffix="ATIS" Frequency="35000" SectorID="MA3" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="OPF Local" RadioName="Opa Locka Tower" Prefix="OPF" Suffix="TWR" Frequency="34675" SectorID="MT5" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="OPF Ground" RadioName="Opa Locka Ground" Prefix="OPF" Suffix="GND" Frequency="20020" SectorID="MG5" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="OPF Clearance Delivery" RadioName="Opa Locka Clearance Delivery" Prefix="OPF" Suffix="DEL" Frequency="19200" SectorID="MD5" PositionSymbol="D" />
+		<PositionInfo InFacility="false" SectorName="OPF ATIS" RadioName="Opa Locka Executive ATIS" Prefix="KOPF" Suffix="ATIS" Frequency="25900" SectorID="MA5" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="TMB Local" RadioName="Tamiami Tower" Prefix="TMB" Suffix="TWR" Frequency="18900" SectorID="MT6" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="TMB Ground" RadioName="Tamiami Ground" Prefix="TMB" Suffix="GND" Frequency="21700" SectorID="MG6" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="TMB Clearance Delivery" RadioName="Tamiami Clearance Delivery" Prefix="TMB" Suffix="DEL" Frequency="33000" SectorID="MD6" PositionSymbol="D" />
+		<PositionInfo InFacility="false" SectorName="TMB ATIS" RadioName="Tamiami ATIS" Prefix="KTMB" Suffix="ATIS" Frequency="24000" SectorID="MA6" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="FXE Local" RadioName="Executive Tower" Prefix="FXE" Suffix="TWR" Frequency="20900" SectorID="MT7" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="FXE Ground" RadioName="Executive Ground" Prefix="FXE" Suffix="GND" Frequency="21750" SectorID="MG7" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="FXE Clearance Delivery" RadioName="Executive Clearance Delivery" Prefix="FXE" Suffix="DEL" Frequency="27950" SectorID="MD7" PositionSymbol="D" />
+		<PositionInfo InFacility="false" SectorName="FXE ATIS" RadioName="Fort Lauderdale Executive ATIS" Prefix="KFXE" Suffix="ATIS" Frequency="19850" SectorID="MA7" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="PMP Local" RadioName="Pompano Beach Tower" Prefix="PMP" Suffix="TWR" Frequency="25400" SectorID="MT8" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="PMP Ground" RadioName="Pompano Beach Ground" Prefix="PMP" Suffix="GND" Frequency="21900" SectorID="MG8" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="PMP ATIS" RadioName="Pompano Beach ATIS" Prefix="KPMP" Suffix="ATIS" Frequency="20550" SectorID="MA8" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="HST Approach/Departure" RadioName="Homestead Approach" Prefix="HST" Suffix="APP" Frequency="23800" SectorID="HHH" PositionSymbol="H" />
+		<PositionInfo InFacility="false" SectorName="HST Local" RadioName="Homestead Tower" Prefix="HST" Suffix="TWR" Frequency="33450" SectorID="MT9" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="HST Ground" RadioName="Homestead Ground" Prefix="HST" Suffix="GND" Frequency="21750" SectorID="MG9" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="HST ATIS" RadioName="Homestead ATIS" Prefix="KHST" Suffix="ATIS" Frequency="32270" SectorID="MA9" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="TPA West Arrival - W" RadioName="Tampa Approach" Prefix="TPA" Suffix="APP" Frequency="32520" SectorID="TTW" PositionSymbol="W" />
+		<PositionInfo InFacility="false" SectorName="TPA East Arrival - E" RadioName="Tampa Approach" Prefix="TPA" Suffix="APP" Frequency="18150" SectorID="TTE" PositionSymbol="E" />
+		<PositionInfo InFacility="false" SectorName="TPA Final - F" RadioName="Tampa Approach" Prefix="TPA" Suffix="APP" Frequency="18500" SectorID="TTF" PositionSymbol="F" />
+		<PositionInfo InFacility="false" SectorName="TPA South Departure - G" RadioName="Tampa Departure" Prefix="TPA" Suffix="DEP" Frequency="34250" SectorID="TTG" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="TPA West Departure - D" RadioName="Tampa Departure" Prefix="TPA" Suffix="DEP" Frequency="18800" SectorID="TTD" PositionSymbol="D" />
+		<PositionInfo InFacility="false" SectorName="TPA East Departure - B" RadioName="Tampa Departure" Prefix="TPA" Suffix="DEP" Frequency="35500" SectorID="TTB" PositionSymbol="B" />
+		<PositionInfo InFacility="false" SectorName="TPA South Satellite - S" RadioName="Tampa Approach" Prefix="TPA" Suffix="APP" Frequency="19650" SectorID="TTS" PositionSymbol="S" />
+		<PositionInfo InFacility="false" SectorName="TPA West Satellite - P" RadioName="Tampa Approach" Prefix="TPA" Suffix="APP" Frequency="25300" SectorID="TTP" PositionSymbol="P" />
+		<PositionInfo InFacility="false" SectorName="TPA East Satellite - L" RadioName="Tampa Approach" Prefix="TPA" Suffix="APP" Frequency="19900" SectorID="TTL" PositionSymbol="L" />
+		<PositionInfo InFacility="false" SectorName="TPA Lakeland Low - R" RadioName="Tampa Approach" Prefix="TPA" Suffix="APP" Frequency="20650" SectorID="TTR" PositionSymbol="R" />
+		<PositionInfo InFacility="false" SectorName="TPA MacDill - M" RadioName="Tampa Approach" Prefix="TPA" Suffix="APP" Frequency="26000" SectorID="TTM" PositionSymbol="M" />
+		<PositionInfo InFacility="false" SectorName="TPA Local West" RadioName="Tampa Tower" Prefix="TPA" Suffix="TWR" Frequency="19500" SectorID="TT1" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="TPA Local East" RadioName="Tampa Tower" Prefix="TPA" Suffix="TWR" Frequency="19050" SectorID="TT2" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="TPA Ground West" RadioName="Tampa Ground" Prefix="TPA" Suffix="GND" Frequency="21700" SectorID="TG1" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="TPA Ground East" RadioName="Tampa Ground" Prefix="TPA" Suffix="GND" Frequency="21350" SectorID="TG2" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="TPA Clearance Delivery" RadioName="Tampa Clearance Delivery" Prefix="TPA" Suffix="DEL" Frequency="33600" SectorID="TD1" PositionSymbol="D" />
+		<PositionInfo InFacility="false" SectorName="TPA ATIS" RadioName="Tampa International ATIS" Prefix="KTPA" Suffix="ATIS" Frequency="26450" SectorID="TA1" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="TPA ATIS" RadioName="Tampa International ATIS" Prefix="KTPA" Suffix="ATIS" Frequency="28475" SectorID="TA2" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="SRQ Local" RadioName="Sarasota Tower" Prefix="SRQ" Suffix="TWR" Frequency="20100" SectorID="TT3" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="SRQ Ground" RadioName="Sarasota Ground" Prefix="SRQ" Suffix="GND" Frequency="21900" SectorID="TG3" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="SRQ Clearance Delivery" RadioName="Sarasota Clearance Delivery" Prefix="SRQ" Suffix="DEL" Frequency="18250" SectorID="TD3" PositionSymbol="D" />
+		<PositionInfo InFacility="false" SectorName="SRQ ATIS" RadioName="Sarasota International ATIS" Prefix="KSRQ" Suffix="ATIS" Frequency="24370" SectorID="TA3" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="PIE Local" RadioName="St Petersburg Tower" Prefix="PIE" Suffix="TWR" Frequency="18300" SectorID="TT4" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="PIE Ground" RadioName="St Petersburg Ground" Prefix="PIE" Suffix="GND" Frequency="21900" SectorID="TG4" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="PIE Clearance Delivery" RadioName="St Petersburg Clearance Delivery" Prefix="PIE" Suffix="DEL" Frequency="20600" SectorID="TD4" PositionSymbol="D" />
+		<PositionInfo InFacility="false" SectorName="PIE ATIS" RadioName="St Pete-Clearwater International ATIS" Prefix="KPIE" Suffix="ATIS" Frequency="34500" SectorID="TA4" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="LAL Local" RadioName="Lakeland Tower" Prefix="LAL" Suffix="TWR" Frequency="24500" SectorID="TT5" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="LAL Ground" RadioName="Lakeland Ground" Prefix="LAL" Suffix="GND" Frequency="21400" SectorID="TG5" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="LAL ATIS" RadioName="Lakeland ATIS" Prefix="KLAL" Suffix="ATIS" Frequency="18020" SectorID="TA5" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="SPG Local" RadioName="Whitted Tower" Prefix="SPG" Suffix="TWR" Frequency="27400" SectorID="TT6" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="SPG Ground" RadioName="Whitted Ground" Prefix="SPG" Suffix="GND" Frequency="21800" SectorID="TG6" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="BKV Local" RadioName="Brooksville Tower" Prefix="BKV" Suffix="TWR" Frequency="18550" SectorID="TT7" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="BKV Ground" RadioName="Brooksville Ground" Prefix="BKV" Suffix="GND" Frequency="21400" SectorID="TG7" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="BOW Local" RadioName="Bartow Tower" Prefix="BOW" Suffix="TWR" Frequency="21200" SectorID="TT8" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="BOW Ground" RadioName="Bartow Ground" Prefix="BOW" Suffix="GND" Frequency="21900" SectorID="TG8" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="MCF Local" RadioName="MacDill Tower" Prefix="MCF" Suffix="TWR" Frequency="20170" SectorID="TT9" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="MCF Ground" RadioName="MacDill Ground" Prefix="MCF" Suffix="GND" Frequency="18570" SectorID="TG9" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="MCF ATIS" RadioName="MacDill ATIS" Prefix="KMCF" Suffix="ATIS" Frequency="33820" SectorID="TA9" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="RSW South - S" RadioName="Fort Myers Approach" Prefix="RSW" Suffix="APP" Frequency="19750" SectorID="FFS" PositionSymbol="A" />
+		<PositionInfo InFacility="false" SectorName="RSW Final - F" RadioName="Fort Myers Approach" Prefix="RSW" Suffix="APP" Frequency="34420" SectorID="FFF" PositionSymbol="F" />
+		<PositionInfo InFacility="false" SectorName="RSW West - W" RadioName="Fort Myers Approach" Prefix="RSW" Suffix="APP" Frequency="25150" SectorID="FFW" PositionSymbol="D" />
+		<PositionInfo InFacility="false" SectorName="RSW East - E" RadioName="Fort Myers Approach" Prefix="RSW" Suffix="APP" Frequency="26800" SectorID="FFE" PositionSymbol="S" />
+		<PositionInfo InFacility="false" SectorName="RSW Local" RadioName="Fort Myers Tower" Prefix="RSW" Suffix="TWR" Frequency="28750" SectorID="FT1" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="RSW Ground" RadioName="Fort Myers Ground" Prefix="RSW" Suffix="GND" Frequency="21900" SectorID="FG1" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="RSW Clearance Delivery" RadioName="Fort Myers Clearance Delivery" Prefix="RSW" Suffix="DEL" Frequency="32070" SectorID="FD1" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="KRSW ATIS" RadioName="Southwest Florida International ATIS" Prefix="KRSW" Suffix="ATIS" Frequency="24650" SectorID="FA1" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="APF Local" RadioName="Naples Tower" Prefix="APF" Suffix="TWR" Frequency="28500" SectorID="FT2" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="APF Ground" RadioName="Naples Ground" Prefix="APF" Suffix="GND" Frequency="21600" SectorID="FG2" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="APF ATIS" RadioName="Naples Municipal ATIS" Prefix="KAPF" Suffix="ATIS" Frequency="34225" SectorID="FA2" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="FMY Local" RadioName="Page Tower" Prefix="FMY" Suffix="TWR" Frequency="19000" SectorID="FT3" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="FMY Ground" RadioName="Page Ground" Prefix="FMY" Suffix="GND" Frequency="21700" SectorID="FG3" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="FMY ATIS" RadioName="Page Field ATIS" Prefix="KFMY" Suffix="ATIS" Frequency="23725" SectorID="FA3" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="PGD Local" RadioName="Punta Gorda Tower" Prefix="PGD" Suffix="TWR" Frequency="21000" SectorID="FT4" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="PGD Ground" RadioName="Punta Gorda Ground" Prefix="PGD" Suffix="GND" Frequency="19550" SectorID="FG4" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="PBI Final - FRA" RadioName="Palm Beach Approach" Prefix="PBI" Suffix="APP" Frequency="25000" SectorID="PPA" PositionSymbol="A" />
+		<PositionInfo InFacility="false" SectorName="PBI North Satellite - STK" RadioName="Palm Beach Approach" Prefix="PBI" Suffix="APP" Frequency="32800" SectorID="PPK" PositionSymbol="K" />
+		<PositionInfo InFacility="false" SectorName="PBI North Departure - DRB" RadioName="Palm Beach Departure" Prefix="PBI" Suffix="DEP" Frequency="28300" SectorID="PPB" PositionSymbol="B" />
+		<PositionInfo InFacility="false" SectorName="PBI North Arrival - ARI" RadioName="Palm Beach Approach" Prefix="PBI" Suffix="APP" Frequency="24600" SectorID="PPI" PositionSymbol="I" />
+		<PositionInfo InFacility="false" SectorName="PBI South Arrival - ARF" RadioName="Palm Beach Approach" Prefix="PBI" Suffix="APP" Frequency="25200" SectorID="PPF" PositionSymbol="F" />
+		<PositionInfo InFacility="false" SectorName="PBI West Arrival - ARP" RadioName="Palm Beach Approach" Prefix="PBI" Suffix="APP" Frequency="27350" SectorID="PPP" PositionSymbol="P" />
+		<PositionInfo InFacility="false" SectorName="PBI Local" RadioName="Palm Beach Tower" Prefix="PBI" Suffix="TWR" Frequency="19100" SectorID="PT1" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="PBI Ground" RadioName="Palm Beach Ground" Prefix="PBI" Suffix="GND" Frequency="21900" SectorID="PG1" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="PBI Clearance Delivery" RadioName="Palm Beach Clearance Delivery" Prefix="PBI" Suffix="DEL" Frequency="21600" SectorID="PD1" PositionSymbol="D" />
+		<PositionInfo InFacility="false" SectorName="PBI ATIS" RadioName="Palm Beach International ATIS" Prefix="KPBI" Suffix="ATIS" Frequency="23750" SectorID="PA1" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="SUA Local" RadioName="Stuart Tower" Prefix="SUA" Suffix="TWR" Frequency="26600" SectorID="PT2" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="SUA Ground" RadioName="Stuart Ground" Prefix="SUA" Suffix="GND" Frequency="21700" SectorID="PG2" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="SUA ATIS" RadioName="Witham Field ATIS" Prefix="ATIS" Suffix="KSUA" Frequency="34475" SectorID="PA2" PositionSymbol="KSUA" />
+		<PositionInfo InFacility="false" SectorName="BCT Local" RadioName="Boca Raton Tower" Prefix="TWR" Suffix="BCT" Frequency="18425" SectorID="PT3" PositionSymbol="BCT" />
+		<PositionInfo InFacility="false" SectorName="BCT Ground" RadioName="Boca Raton Ground" Prefix="GND" Suffix="BCT" Frequency="21800" SectorID="PG3" PositionSymbol="BCT" />
+		<PositionInfo InFacility="false" SectorName="VRB Local" RadioName="Vero Beach Tower" Prefix="VRB" Suffix="TWR" Frequency="26300" SectorID="PT4" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="VRB Ground" RadioName="Vero Beach Ground" Prefix="VRB" Suffix="GND" Frequency="27450" SectorID="PG4" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="VRB Clearance Delivery" RadioName="Vero Beach Clearance Delivery" Prefix="VRB" Suffix="DEL" Frequency="34975" SectorID="PD4" PositionSymbol="D" />
+		<PositionInfo InFacility="false" SectorName="VRB ATIS" RadioName="Vero Beach ATIS" Prefix="ATIS" Suffix="KVRB" Frequency="20575" SectorID="PA4" PositionSymbol="KVRB" />
+		<PositionInfo InFacility="false" SectorName="FPR Local" RadioName="Ft. Pierce Tower" Prefix="FPR" Suffix="TWR" Frequency="28199" SectorID="PT5" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="FPR Ground" RadioName="Ft. Pierce Ground" Prefix="FPR" Suffix="GND" Frequency="19550" SectorID="PG5" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="FPR ATIS" RadioName="Treasure Coast International ATIS" Prefix="ATIS" Suffix="KFPR" Frequency="34825" SectorID="PA5" PositionSymbol="KFPR" />
+		<PositionInfo InFacility="false" SectorName="6FA Local" RadioName="Gwinn Tower" Prefix="6FA" Suffix="TWR" Frequency="20400" SectorID="PT6" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="6FA Ground" RadioName="Gwinn Ground" Prefix="6FA" Suffix="GND" Frequency="21650" SectorID="PG6" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="NQX Approach/Departure - Y" RadioName="Navy Key West Approach" Prefix="NQX" Suffix="APP" Frequency="24020" SectorID="EEE" PositionSymbol="E" />
+		<PositionInfo InFacility="false" SectorName="NQX Local" RadioName="Navy Key West Tower" Prefix="NQX" Suffix="TWR" Frequency="18575" SectorID="ET2" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="NQX Ground" RadioName="Navy Key West Ground" Prefix="NQX" Suffix="GND" Frequency="21700" SectorID="EG2" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="NQX Clearance Delivery" RadioName="Navy Key West Clearance Delivery" Prefix="NQX" Suffix="DEL" Frequency="21200" SectorID="ED2" PositionSymbol="D" />
+		<PositionInfo InFacility="false" SectorName="EYW Local" RadioName="Key West Tower" Prefix="EYW" Suffix="TWR" Frequency="18200" SectorID="ET1" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="EYW Ground" RadioName="Key West Ground" Prefix="EYW" Suffix="GND" Frequency="21900" SectorID="EG1" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="EYW ATIS" RadioName="Key West International ATIS" Prefix="ATIS" Suffix="KEYW" Frequency="19675" SectorID="EA1" PositionSymbol="KEYW" />
+		<PositionInfo InFacility="false" SectorName="ZMA_ATM" RadioName="Chief Executive Officer" Prefix="ZMA" Suffix="ATM" Frequency="99998" SectorID="Z1" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="ZMA_DATM" RadioName="Deputy Chief Executive Officer" Prefix="ZMA" Suffix="DATM" Frequency="99998" SectorID="Z2" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="ZMA_TA" RadioName="Chief Academic Officer" Prefix="ZMA" Suffix="TA" Frequency="99998" SectorID="Z3" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="ZMA_DTA" RadioName="Deputy Chief Academic Officer" Prefix="ZMA" Suffix="DTA" Frequency="99998" SectorID="Z4" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="ZMA_EC" RadioName="I'm Julie, Your Cruise Director" Prefix="ZMA" Suffix="EC" Frequency="99998" SectorID="Z5" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="ZMA_FE" RadioName="Director of Real Estate" Prefix="ZMA" Suffix="FE" Frequency="99998" SectorID="Z6" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="ZMA_IT" RadioName="Director of IT" Prefix="ZMA" Suffix="IT" Frequency="99998" SectorID="Z7" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="ZMA_SL_OBS" RadioName="Assistant to Ted Nugget" Prefix="IT1" Suffix="" Frequency="0" SectorID="X" PositionSymbol="ZMA" />
+		<PositionInfo InFacility="false" SectorName="ZJX ASHBURN LOW 13" RadioName="Jacksonville Center" Prefix="JAX" Suffix="CTR" Frequency="34450" SectorID="J13" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="ZJX OCALA LOW 15" RadioName="Jacksonville Center" Prefix="JAX" Suffix="CTR" Frequency="33320" SectorID="J15" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="ZJX NEPTA HIGH 30" RadioName="Jacksonville Center" Prefix="JAX" Suffix="CTR" Frequency="35920" SectorID="J30" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="ZJX NEPTA HIGH 30" RadioName="Jacksonville Center" Prefix="JAX" Suffix="CTR" Frequency="24770" SectorID="J30" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="ZJX TORRY 35" RadioName="Jacksonville Center" Prefix="JAX" Suffix="CTR" Frequency="34850" SectorID="J35" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="ZJX METTA 52" RadioName="Jacksonville Center" Prefix="JAX" Suffix="CTR" Frequency="35050" SectorID="J52" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="MCO East Departure - DRE" RadioName="Orlando Approach" Prefix="MCO" Suffix="APP" Frequency="24800" SectorID="XE" PositionSymbol="O" />
+		<PositionInfo InFacility="false" SectorName="MCO West Departure - DRW" RadioName="Orlando Approach" Prefix="MCO" Suffix="APP" Frequency="20150" SectorID="XW" PositionSymbol="O" />
+		<PositionInfo InFacility="false" SectorName="MCO Bairn Arrival - ARB" RadioName="Orlando Approach" Prefix="MCO" Suffix="APP" Frequency="25550" SectorID="XB" PositionSymbol="O" />
+		<PositionInfo InFacility="false" SectorName="MCO Leese Arrival - ARL" RadioName="Orlando Approach" Prefix="MCO" Suffix="APP" Frequency="34050" SectorID="XL" PositionSymbol="O" />
+		<PositionInfo InFacility="false" SectorName="MCO Final" RadioName="Orlando Approach" Prefix="MCO" Suffix="APP" Frequency="27750" SectorID="XM" PositionSymbol="O" />
+		<PositionInfo InFacility="false" SectorName="MCO Satellite Disney" RadioName="Orlando Approach" Prefix="MCO" Suffix="APP" Frequency="19400" SectorID="XD" PositionSymbol="O" />
+		<PositionInfo InFacility="false" SectorName="MCO Satellite Kape" RadioName="Orlando Approach" Prefix="MCO" Suffix="APP" Frequency="34950" SectorID="XK" PositionSymbol="O" />
+		<PositionInfo InFacility="false" SectorName="MCO Satellite North" RadioName="Orlando Approach" Prefix="MCO" Suffix="APP" Frequency="21100" SectorID="XN" PositionSymbol="O" />
+		<PositionInfo InFacility="false" SectorName="MCO Satellite South" RadioName="Orlando Approach" Prefix="MCO" Suffix="APP" Frequency="32650" SectorID="S" PositionSymbol="O" />
+		<PositionInfo InFacility="false" SectorName="JAX South" RadioName="Jacksonville Approach" Prefix="JAX" Suffix="APP" Frequency="19000" SectorID="JS" PositionSymbol="J" />
+		<PositionInfo InFacility="false" SectorName="JAX North" RadioName="Jacksonville Approach" Prefix="JAX" Suffix="APP" Frequency="27000" SectorID="JN" PositionSymbol="J" />
+		<PositionInfo InFacility="false" SectorName="JAX Final" RadioName="Jacksonville Approach" Prefix="JAX" Suffix="APP" Frequency="19850" SectorID="JJ" PositionSymbol="J" />
+		<PositionInfo InFacility="false" SectorName="JAX Satellite" RadioName="Jacksonville Approach" Prefix="JAX" Suffix="APP" Frequency="24900" SectorID="JL" PositionSymbol="J" />
+		<PositionInfo InFacility="false" SectorName="JAX Vitts" RadioName="Jacksonville Approach" Prefix="JAX" Suffix="APP" Frequency="18600" SectorID="JV" PositionSymbol="J" />
+		<PositionInfo InFacility="false" SectorName="ZHU_72_FSS" RadioName="Houston Radio" Prefix="ZHU" Suffix="FSS" Frequency="35770" SectorID="H72" PositionSymbol="H" />
+		<PositionInfo InFacility="false" SectorName="ZHU_79_FSS" RadioName="Houston Radio" Prefix="ZHU" Suffix="FSS" Frequency="32650" SectorID="H79" PositionSymbol="H" />
+		<PositionInfo InFacility="false" SectorName="MYNN Center" RadioName="Nassau Center" Prefix="MYNN" Suffix="CTR" Frequency="25700" SectorID="NNN" PositionSymbol="N" />
+		<PositionInfo InFacility="false" SectorName="MYNN Approach" RadioName="Nassau Approach" Prefix="MYNN" Suffix="APP" Frequency="21000" SectorID="NNA" PositionSymbol="A" />
+		<PositionInfo InFacility="false" SectorName="MYGF Approach" RadioName="Freeport Approach" Prefix="MYGF" Suffix="APP" Frequency="35700" SectorID="NNF" PositionSymbol="F" />
+		<PositionInfo InFacility="false" SectorName="MBPV Approach" RadioName="Provo Approach" Prefix="MBPV" Suffix="APP" Frequency="26000" SectorID="NNP" PositionSymbol="P" />
+		<PositionInfo InFacility="false" SectorName="ZWY JBC" RadioName="New York Radio" Prefix="NY" Suffix="FSS" Frequency="25920" SectorID="WWJ" PositionSymbol="%" />
+		<PositionInfo InFacility="false" SectorName="ZWY BDA" RadioName="New York Radio" Prefix="NY" Suffix="FSS" Frequency="28500" SectorID="WWB" PositionSymbol="%" />
+		<PositionInfo InFacility="false" SectorName="ZWY CCO" RadioName="New York Radio" Prefix="NY" Suffix="FSS" Frequency="19100" SectorID="WWC" PositionSymbol="%" />
+		<PositionInfo InFacility="false" SectorName="ZWY GRX" RadioName="New York Radio" Prefix="NY" Suffix="FSS" Frequency="22720" SectorID="WWG" PositionSymbol="%" />
+		<PositionInfo InFacility="false" SectorName="ZWY N" RadioName="New York Radio" Prefix="NY" Suffix="FSS" Frequency="22600" SectorID="WWN" PositionSymbol="%" />
+		<PositionInfo InFacility="false" SectorName="ZWY S" RadioName="New York Radio" Prefix="NY" Suffix="FSS" Frequency="22320" SectorID="WWS" PositionSymbol="%" />
+		<PositionInfo InFacility="false" SectorName="ZWY W" RadioName="New York Radio" Prefix="NY" Suffix="FSS" Frequency="22620" SectorID="WWW" PositionSymbol="%" />
+		<PositionInfo InFacility="false" SectorName="ZWY E" RadioName="New York Radio" Prefix="NY" Suffix="FSS" Frequency="22120" SectorID="WWE" PositionSymbol="%" />
+		<PositionInfo InFacility="false" SectorName="SJU 2" RadioName="San Juan Center" Prefix="SJU" Suffix="CTR" Frequency="18150" SectorID="SSS" PositionSymbol="S" />
+		<PositionInfo InFacility="false" SectorName="SJU 2" RadioName="San Juan Center" Prefix="SJU" Suffix="CTR" Frequency="18150" SectorID="SS2" PositionSymbol="S" />
+		<PositionInfo InFacility="false" SectorName="SJU 4" RadioName="San Juan Center" Prefix="SJU" Suffix="CTR" Frequency="25000" SectorID="SS4" PositionSymbol="S" />
+		<PositionInfo InFacility="false" SectorName="SJU 6" RadioName="San Juan Center" Prefix="SJU" Suffix="CTR" Frequency="35700" SectorID="SSS" PositionSymbol="S" />
+		<PositionInfo InFacility="false" SectorName="SJU 6" RadioName="San Juan Center" Prefix="SJU" Suffix="CTR" Frequency="35700" SectorID="SS6" PositionSymbol="S" />
+		<PositionInfo InFacility="false" SectorName="SJU 8" RadioName="San Juan Center" Prefix="SJU" Suffix="CTR" Frequency="18750" SectorID="SS8" PositionSymbol="S" />
+		<PositionInfo InFacility="false" SectorName="MUFH C" RadioName="Havana Center" Prefix="MUFH" Suffix="CTR" Frequency="24550" SectorID="HHC" PositionSymbol="H" />
+		<PositionInfo InFacility="false" SectorName="MUFH B" RadioName="Havana Center" Prefix="MUFH" Suffix="CTR" Frequency="23700" SectorID="HHB" PositionSymbol="H" />
+		<PositionInfo InFacility="false" SectorName="MUHA" RadioName="Havana Terminal" Prefix="MUHA" Suffix="APP" Frequency="20300" SectorID="HHA" PositionSymbol="A" />
+		<PositionInfo InFacility="false" SectorName="MUCU" RadioName="Santiago Approach" Prefix="MUCU" Suffix="APP" Frequency="19400" SectorID="HHS" PositionSymbol="A" />
+		<PositionInfo InFacility="false" SectorName="MUVR" RadioName="Varadero Approach" Prefix="MUVR" Suffix="APP" Frequency="19600" SectorID="HHV" PositionSymbol="A" />
+		<PositionInfo InFacility="false" SectorName="MUCC" RadioName="Cayo Coco Approach" Prefix="MUCC" Suffix="APP" Frequency="18800" SectorID="HHY" PositionSymbol="A" />
+		<PositionInfo InFacility="false" SectorName="MTEG" RadioName="Port-Au-Prince Control" Prefix="MTEG" Suffix="CTR" Frequency="24500" SectorID="GGG" PositionSymbol="P" />
+		<PositionInfo InFacility="false" SectorName="MDCS N" RadioName="Santo Domingo Control" Prefix="MDCS" Suffix="CTR" Frequency="24300" SectorID="DDN" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="MDCS S" RadioName="Santo Domingo Control" Prefix="MDCS" Suffix="CTR" Frequency="27800" SectorID="DDS" PositionSymbol="C" />
+	</Positions>
+	<PositionsLastImported>2017-02-20T00:27:32.9935-08:00</PositionsLastImported>
+	<CommandAliases>
+		<CommandAlias Command=".SB" ReplaceWith="Clearance on request, standby." />
+		<CommandAlias Command=".AMA" ReplaceWith="$cruise is invalid for direction of flight. Can you accept $uc($1) or $uc($2)?" />
+		<CommandAlias Command=".AMR" ReplaceWith="Can you accept the following route: $uc($1) $uc($2) $uc($3) $uc($4) $uc($5) $uc($6) $uc($7) $uc($8) $uc($9)" />
+		<CommandAlias Command=".CV" ReplaceWith="Do you copy voice?" />
+		<CommandAlias Command=".CRAFTP" ReplaceWith="Cleared to $arr, $uc($1) departure, then as filed. Climb via SID except maintain $uc($2)00, departure frequency $freq($3), squawk $squawk." />
+		<CommandAlias Command=".CRAFTR" ReplaceWith="Cleared to $arr via radar vectors to join the $uc($1) departure, then as filed. Climb via SID except maintain $uc($2)00, departure frequency $freq($3), squawk $squawk." />
+		<CommandAlias Command=".CRAFTV" ReplaceWith="Cleared to $arr via radar vectors $uc($1), then as filed. Climb and maintain $uc($2)00, expect $cruise 10 minutes after departure, departure frequency $freq($3), squawk $squawk." />
+		<CommandAlias Command=".CRAFTQ" ReplaceWith="Cleared to $arr, $uc($1) departure, radar vectors $uc($2), then as filed. Climb via SID except maintain $uc($3)00, departure frequency $freq($4), squawk $squawk." />
+		<CommandAlias Command=".CRAFTT" ReplaceWith="Cleared to $arr, $uc($1) departure, $uc($2) transition, then as filed. Climb via SID except maintain $uc($3)00, departure frequency $freq($4), squawk $squawk." />
+		<CommandAlias Command=".ROB" ReplaceWith="Readback correct. Expect runway $uc($1) for departure. Advise when ready to taxi. Altimeter $altim($dep)." />
+		<CommandAlias Command=".ROBP" ReplaceWith="Readback correct. Expect runway $uc($1) for departure. Advise when ready for push. Altimeter $altim($dep)." />
+		<CommandAlias Command=".RLSD" ReplaceWith="Readback correct. Released for departure at $time. Clearance void if not off by $1z. Frequency change approved. Advise this frequency when airborne." />
+		<CommandAlias Command=".RLSDH" ReplaceWith="Readback correct. Hold for release. Expect $1 minute departure delay." />
+		<CommandAlias Command=".dlc" ReplaceWith=".msg $aircraft - ATC UPLINK - CLEARED TO $arr ARPT $uc($1) THEN AS FILED. CLIMB VIA SID. EXPECT $cruise 10 MIN AFT DP, DPFRQ $freq($2). SQUAWK $squawk CONTACT GRND WITH ATIS." />
+		<CommandAlias Command=".dlcp" ReplaceWith=".msg $aircraft - ATC UPLINK - CLEARED TO $arr ARPT $uc($1) THEN AS FILED. CLIMB VIA SID. EXPECT $cruise 10 MIN AFT DP, DPFRQ $freq($2). SQUAWK $squawk CONTACT GRND WITH ATIS FOR PUSHBACK." />
+		<CommandAlias Command=".dlx" ReplaceWith=".msg $aircraft - ATC UPLINK - CLEARED ROUTE CLEARANCE. $uc($1). CLIMB VIA SID. EXPECT $cruise 10 MIN AFT DP, DPFRQ $freq($2). SQUAWK $squawk CONTACT GRND WITH ATIS. MOD RTE $route. ADV ACCEPT/REJECT RTE." />
+		<CommandAlias Command=".dlxp" ReplaceWith=".msg $aircraft - ATC UPLINK - CLEARED ROUTE CLEARANCE. $uc($1). CLIMB VIA SID. EXPECT $cruise 10 MIN AFT DP, DPFRQ $freq($2). SQUAWK $squawk CONTACT GRND WITH ATIS FOR PUSHBACK. MOD RTE $route. ADV ACCEPT/REJECT RTE." />
+		<CommandAlias Command=".dlce" ReplaceWith=".msg $aircraft - ATC UPLINK - CLEARED TO $arr ARPT $uc($1) THEN AS FILED. CLIMB VIA SID EXCEPT MAINT $uc($2)00FT. EXPECT $cruise 10 MIN AFT DP, DPFRQ $freq($3). SQUAWK $squawk CONTACT GRND WITH ATIS." />
+		<CommandAlias Command=".dlcpe" ReplaceWith=".msg $aircraft - ATC UPLINK - CLEARED TO $arr ARPT $uc($1) THEN AS FILED. CLIMB VIA SID EXCEPT MAINT $uc($2)00FT. EXPECT $cruise 10 MIN AFT DP, DPFRQ $freq($3). SQUAWK $squawk CONTACT GRND WITH ATIS FOR PUSHBACK." />
+		<CommandAlias Command=".dlxe" ReplaceWith=".msg $aircraft - ATC UPLINK - CLEARED ROUTE CLEARANCE. $uc($1). CLIMB VIA SID EXCEPT MAINT $uc($2)00FT. EXPECT $cruise 10 MIN AFT DP, DPFRQ $freq($3). SQUAWK $squawk CONTACT GRND WITH ATIS. MOD RTE $route. ADV ACCEPT/REJECT RTE." />
+		<CommandAlias Command=".dlxpe" ReplaceWith=".msg $aircraft - ATC UPLINK - CLEARED ROUTE CLEARANCE. $uc($1). CLIMB VIA SID EXCEPT MAINT $uc($2)00FT. EXPECT $cruise 10 MIN AFT DP, DPFRQ $freq($3). SQUAWK $squawk CONTACT GRND WITH ATIS FOR PUSHBACK. MOD RTE $route. ADV ACCEPT/REJECT RTE." />
+		<CommandAlias Command=".HS" ReplaceWith="Hold short runway $uc($1)." />
+		<CommandAlias Command=".HP" ReplaceWith="Hold position." />
+		<CommandAlias Command=".PA" ReplaceWith="Push on taxiway $uc($1) approved. Advise when ready to taxi." />
+		<CommandAlias Command=".WELC" ReplaceWith="Turn $lc($1), contact $radioname($2), $freq($2)." />
+		<CommandAlias Command=".TAXIR" ReplaceWith="Runway $uc($1) taxi via $uc($2) $uc($3) $uc($4) $uc($5) $uc($6) $uc($7) $uc($8) $uc($9)" />
+		<CommandAlias Command=".TAXIP" ReplaceWith="Taxi ramp via $uc($1) $uc($2) $uc($3) $uc($4) $uc($5) $uc($6) $uc($7) $uc($8) $uc($9)" />
+		<CommandAlias Command=".TAXI" ReplaceWith="Taxi via $uc($1) $uc($2) $uc($3) $uc($4) $uc($5) $uc($6) $uc($7) $uc($8) $uc($9)" />
+		<CommandAlias Command=".CX" ReplaceWith="Cross runway $uc($1) at $uc($2)." />
+		<CommandAlias Command=".CXC" ReplaceWith="Cross runway $uc($1) at $uc($2). Contact $radioname($3), $freq($3)." />
+		<CommandAlias Command=".CTR" ReplaceWith="Wind $wind($dep), RNAV to $uc($2), runway $uc($1), cleared for takeoff." />
+		<CommandAlias Command=".CTH" ReplaceWith="Wind $wind($dep), fly heading $2, runway $uc($1), cleared for takeoff." />
+		<CommandAlias Command=".CT" ReplaceWith="Wind $wind($dep), runway $uc($1), cleared for takeoff." />
+		<CommandAlias Command=".CTP" ReplaceWith="Wind $wind($dep), $lc($2) closed traffic approved. Runway $uc($1), cleared for takeoff." />
+		<CommandAlias Command=".CL" ReplaceWith="Wind $wind($arr), runway $uc($1), cleared to land." />
+		<CommandAlias Command=".CO" ReplaceWith="Wind $wind($arr), runway $uc($1), cleared for the option." />
+		<CommandAlias Command=".GA" ReplaceWith="Go around, fly heading $1, climb and maintain $alt." />
+		<CommandAlias Command=".LUAW" ReplaceWith="Runway $uc($1), line up and wait." />
+		<CommandAlias Command=".CANCEL" ReplaceWith="Cancel takeoff clearance." />
+		<CommandAlias Command=".ALT" ReplaceWith="$uc($1) altimeter $altim($1)." />
+		<CommandAlias Command=".CON" ReplaceWith="Contact $radioname($1), $freq($1)." />
+		<CommandAlias Command=".RCP" ReplaceWith="Radar contact, $dist($1) miles $bear($1) of $uc($1)." />
+		<CommandAlias Command=".RC" ReplaceWith="Radar contact." />
+		<CommandAlias Command=".RCC" ReplaceWith="Radar Contact. Say altitude." />
+		<CommandAlias Command=".ID" ReplaceWith="Ident." />
+		<CommandAlias Command=".SQ" ReplaceWith="Squawk $squawk." />
+		<CommandAlias Command=".SQA" ReplaceWith="Squawk Altitude." />
+		<CommandAlias Command=".CM" ReplaceWith="Climb and maintain $alt." />
+		<CommandAlias Command=".DM" ReplaceWith="Descend and maintain $alt." />
+		<CommandAlias Command=".DMP" ReplaceWith="At pilot's discretion, descend and maintain $alt." />
+		<CommandAlias Command=".M" ReplaceWith="Maintain $alt." />
+		<CommandAlias Command=".AT" ReplaceWith="Cross $uc($1) at and maintain $alt. $arr altimeter $altim($arr)." />
+		<CommandAlias Command=".ATN" ReplaceWith="Cross $uc($1) at and maintain $alt." />
+		<CommandAlias Command=".ATS" ReplaceWith="Cross $uc($1) at and maintain $alt at $2 knots. $arr altimeter $altim($arr)." />
+		<CommandAlias Command=".ATNS" ReplaceWith="Cross $uc($1) at and maintain $alt at $2 knots." />
+		<CommandAlias Command=".DV" ReplaceWith="Descend via the $uc($1) arrival. $arr altimeter $altim($arr)." />
+		<CommandAlias Command=".DVN" ReplaceWith="Descend via the $uc($1) arrival." />
+		<CommandAlias Command=".DVE" ReplaceWith="Descend via the $uc($1) arrival except maintain $alt." />
+		<CommandAlias Command=".DVS" ReplaceWith="Descend via the $uc($1) arrival except maintain $2 knots." />
+		<CommandAlias Command=".CE" ReplaceWith="Climb via SID, except maintain $alt." />
+		<CommandAlias Command=".FH" ReplaceWith="Fly heading $1." />
+		<CommandAlias Command=".TL" ReplaceWith="Turn left heading $1." />
+		<CommandAlias Command=".TR" ReplaceWith="Turn right heading $1." />
+		<CommandAlias Command=".FPH" ReplaceWith="Fly present heading." />
+		<CommandAlias Command=".DCT" ReplaceWith="Proceed direct $uc($1)." />
+		<CommandAlias Command=".DPT" ReplaceWith="Depart $uc($1) heading $2." />
+		<CommandAlias Command=".DF" ReplaceWith="Climb and maintain $alt. Proceed direct $uc($1)." />
+		<CommandAlias Command=".DCTA" ReplaceWith="Proceed direct $uc($1), join the $uc($2) arrival." />
+		<CommandAlias Command=".DCTF" ReplaceWith="At $uc($1), join the $uc($2) arrival." />
+		<CommandAlias Command=".ATISA" ReplaceWith="** Information $uc($2) current at $uc(K$1). Altimeter $altim(K$1). **" />
+		<CommandAlias Command=".ADA" ReplaceWith="Advise information $uc($1)." />
+		<CommandAlias Command=".S" ReplaceWith="Standby." />
+		<CommandAlias Command=".DIS" ReplaceWith="Disregard." />
+		<CommandAlias Command=".SI" ReplaceWith="say airspeed." />
+		<CommandAlias Command=".SM" ReplaceWith="say mach number." />
+		<CommandAlias Command=".SPD" ReplaceWith="maintain $1 knots." />
+		<CommandAlias Command=".SPDI" ReplaceWith="increase speed to $1." />
+		<CommandAlias Command=".SPDR" ReplaceWith="reduce speed to $1." />
+		<CommandAlias Command=".RNS" ReplaceWith="resume normal speed." />
+		<CommandAlias Command=".SPDF" ReplaceWith="Maintain $1 knots or greater until $2 mile final." />
+		<CommandAlias Command=".SPDF2" ReplaceWith="Maintain $1 knots or greater until $2 mile final, $3 knots or greater until $4 mile final." />
+		<CommandAlias Command=".SPDN" ReplaceWith="Maintain $1 knots to $uc($2)." />
+		<CommandAlias Command=".EXP" ReplaceWith="Expect $uc($1) runway $uc($2) approach." />
+		<CommandAlias Command=".EXPVIS" ReplaceWith="Expect visual approach runway $uc($1)." />
+		<CommandAlias Command=".EXPILS" ReplaceWith="Expect ILS runway $uc($1) approach." />
+		<CommandAlias Command=".EXPLOC" ReplaceWith="Expect LOC runway $uc($1) approach." />
+		<CommandAlias Command=".EXPLOCD" ReplaceWith="Expect LOC/DME runway $uc($1) approach." />
+		<CommandAlias Command=".EXPRNAV" ReplaceWith="Expect RNAV$uc($2) runway $uc($1) approach." />
+		<CommandAlias Command=".ARPT" ReplaceWith="$arr is at $oclock($arr), $dist($arr) miles, report airport in sight." />
+		<CommandAlias Command=".VA" ReplaceWith="Cleared visual approach runway $uc($1)." />
+		<CommandAlias Command=".VAF" ReplaceWith="Follow the traffic, cleared visual approach runway $uc($1)." />
+		<CommandAlias Command=".RNAV" ReplaceWith="Proceed direct $uc($1), cross $uc($1) at or above $alt, cleared RNAV$uc($3) runway $uc($2) approach." />
+		<CommandAlias Command=".IA" ReplaceWith="$dist($1) miles from $uc($1), fly heading $2, maintain $alt until established on the localizer, cleared ILS runway $uc($3) approach." />
+		<CommandAlias Command=".IAC" ReplaceWith="Cross $uc($1) at or above $alt, cleared ILS runway $uc($2) approach." />
+		<CommandAlias Command=".LA" ReplaceWith="$dist($1) miles from $uc($1), fly heading $2, maintain $alt until established on the localizer, cleared LOC runway $uc($3) approach." />
+		<CommandAlias Command=".LAD" ReplaceWith="$dist($1) miles from $uc($1), fly heading $2, maintain $alt until established on the localizer, cleared LOC/DME runway $uc($3) approach." />
+		<CommandAlias Command=".ILOC" ReplaceWith="Intercept the runway $uc($1) localizer." />
+		<CommandAlias Command=".PRACAPP" ReplaceWith="Maintain VFR, practice approach approved, no separation services provided." />
+		<CommandAlias Command=".HOLD" ReplaceWith="Cleared to $uc($1), hold over $uc($1), maintain $alt, left hand turns, 2 minute legs." />
+		<CommandAlias Command=".HOLDP" ReplaceWith="Cleared to $uc($1), hold over $uc($1) as published, maintain $alt." />
+		<CommandAlias Command=".RS" ReplaceWith="Frequency change approved." />
+		<CommandAlias Command=".RSC" ReplaceWith="Closing now. Frequency change approved." />
+		<CommandAlias Command=".UNT" ReplaceWith="Frequency change approved, report cancellation of IFR this frequency." />
+		<CommandAlias Command=".CNIFR" ReplaceWith="IFR cancellation received, squawk and maintain VFR. Frequency change approved." />
+		<CommandAlias Command=".CNFF" ReplaceWith="Radar service terminated, squawk and maintain VFR. Frequency change approved." />
+		<CommandAlias Command=".VFRB" ReplaceWith="Cleared out of Bravo airspace. Maintain VFR at or below 2500. Departure frequency $freq($1). Squawk $squawk." />
+		<CommandAlias Command=".VFRC" ReplaceWith="Departure frequency $freq($1). Squawk $squawk." />
+		<CommandAlias Command=".BIN" ReplaceWith="Cleared into Bravo airspace, maintain VFR at or below $alt, squawk $squawk." />
+		<CommandAlias Command=".EXPTTA" ReplaceWith="Expect the Tipp Toe Visual runway 28L approach." />
+		<CommandAlias Command=".EXPQBA" ReplaceWith="Expect the Quiet Bridge Visual runway 28R approach." />
+		<CommandAlias Command=".SFOV" ReplaceWith="Report the bridges or airport in sight." />
+		<CommandAlias Command=".TTA" ReplaceWith="Cross MENLO at or above 4000, cleared Tipp Toe Visual runway 28L approach." />
+		<CommandAlias Command=".QBA" ReplaceWith="Cleared Quiet Bridge Visual runway 28R approach." />
+		<CommandAlias Command=".QBAA" ReplaceWith="At ARCHI intercept the Quiet Bridge Visual routing only. Report the bridges or airport in sight." />
+		<CommandAlias Command=".QBAM" ReplaceWith="Cross MENLO at or above 4000, cleared Quiet Bridge Visual runway 28R approach." />
+		<CommandAlias Command=".KMIAE" ReplaceWith=".ff GRITT INESS GLRIA PIANA VEPCO KROME COPRA LAWNN PABOY LICEY" />
+		<CommandAlias Command=".KMIAEI" ReplaceWith=".msg $callsign [ILS/LOC 9] GRITT @ 3000, INESS @ 1500. [ILS/LOC 12] GLRIA, PIANA @ 3000; VEPCO @ 2000. [ILS/LOC 8R] KROME, COPRA @ 3000; LAWNN @ 1500. [LOC/DME 8L] PABOY @ 3000, LICEY @ 1500." />
+		<CommandAlias Command=".KMIAW" ReplaceWith=".ff HENDN SARCO CHHAZ SHANN OLDDE BIRDD ZILBI BASHO AGLER HINKU JODAX" />
+		<CommandAlias Command=".KMIAWI" ReplaceWith=".msg $callsign [ILS/LOC 27] HENDN, SARCO @ 3000; CHHAZ @ 1600. [ILS/LOC 30] SHANN, OLDDE @ 3000, BIRDD @ 1600. [ILS/LOC 26L] ZILBI, BASHO @ 3000, AGLER @ 1600. [LOC/DME 26R] HINKU @ 3000, JODAX @ 1500." />
+		<CommandAlias Command=".KFLLE" ReplaceWith=".ff PIONN NOVAE BEZER BLAIM LORII" />
+		<CommandAlias Command=".KFLLEI" ReplaceWith=".msg $callsign [ILS/LOC 10L] PIONN @ 2500, NOVAE @ 1800. [ILS/LOC 10R] BEZER @ 4000, BLAIM @ 3000, LORII @ 1800." />
+		<CommandAlias Command=".KFLLW" ReplaceWith=".ff JUMAR SNAPE WIKIR YOBUS" />
+		<CommandAlias Command=".KFLLWI" ReplaceWith=".msg $callsign [ILS/LOC 28R] JUMAR @ 2500, SNAPE @ 2000. [ILS/LOC 28L] WIKIR @ 2500, YOBUS @ 2000." />
+		<CommandAlias Command=".KOPFE" ReplaceWith=".ff OKANE SAZBO JARNO ZIKNA" />
+		<CommandAlias Command=".KOPFEI" ReplaceWith=".msg $callsign [ILS/LOC 9L] OKANE, SAZBO @ 1600. [ILS/LOC 12] JARNO, ZIKNA @ 1700." />
+		<CommandAlias Command=".KOPFW" ReplaceWith=".ff IZROZ JOLYN" />
+		<CommandAlias Command=".KOPFWI" ReplaceWith=".msg $callsign [ILS/LOC 27R] IZROZ @ 1700, JOLYN @ 1600." />
+		<CommandAlias Command=".KTPAN" ReplaceWith=".ff LAGOO SELMN MUWTY ANAZE" />
+		<CommandAlias Command=".KTPANI" ReplaceWith=".msg $callsign [ILS/LOC 1L] LAGOO, SELMN @ 2600. [LOC 1R] MUWTY, ANAZE @ 2600." />
+		<CommandAlias Command=".KTPAS" ReplaceWith=".ff JMBOB FADDI MERRA BUCCS COSME" />
+		<CommandAlias Command=".KTPASI" ReplaceWith=".msg $callsign [ILS/LOC 19L] BUCCS @ 3000, COSME @ 2000. [ILS/LOC 19R] MERRA @ 4000, FADDI @ 3000, JMBOB @ 2000." />
+		<CommandAlias Command=".KRSWE" ReplaceWith=".ff TROPC DOLPN" />
+		<CommandAlias Command=".KRSWEI" ReplaceWith=".msg $callsign [ILS/LOC 6] TROPC @ 3000, DOLPN @ 1500." />
+		<CommandAlias Command=".KRSWW" ReplaceWith=".ff MORGN" />
+		<CommandAlias Command=".KRSWWI" ReplaceWith=".msg $callsign [VOR/DME or TACAN 24] MORGN @ 1600." />
+		<CommandAlias Command=".KPBIE" ReplaceWith=".ff WILBA ZISUR" />
+		<CommandAlias Command=".KPBIEI" ReplaceWith=".msg $callsign [ILS/LOC 10L] WILBA @ 3000, ZISUR @ 2000." />
+		<CommandAlias Command=".KPBIW" ReplaceWith=".ff CUPED RELTY" />
+		<CommandAlias Command=".KPBIWI" ReplaceWith=".msg $callsign [ILS/LOC 28R] CUPED @ 3000, RELTY @ 1500." />
+		<CommandAlias Command=".MIAN" ReplaceWith=".ff ACMEE ADOOR ALBBE ALERI ALUTE AMBIS ANGSS ANTOX APOLO ARKES ASIVO ATTIK AVION AVNEY AVOXI AYBID BAAGR BACCA BAGGS BAHAA BARTS BEERD BESAS BGDOG BLUFI BODLO BORDO BOSAR BOTES BRIKL BROOM BRRGO BTLER BURTZ BUUOY CANEE CANIT CANOA CARAH CARNU CARPX CASPR CATHI CERDA CHRRI CIGAR CLETT CNNOR COCBU COUKY COZIE CRANS CULLY CVIKK DAAST DEARY DEEDS DIAZZ DONEZ DRUDJ DUKKY DULEE DUNED DUNNO DVALL DYNAH EGANN ELBOW ELLEE ELMUC ENAMO EONNS ERRCA ETECK EVETS EXTER EYSEL FARMN FDLEE FOLLE FORRK FORST FOWEE GEROT GHANN GIGIH GOVET GRADI GRATX GUANA HALSS HANKX HARBG HARDE HEATT HEDLY HIBAC HINZY HOAGG HOBEE HODGY HOOKY INDEE INDRO INGRA INPIN IORIO ISOLE JANUS JAYEE JAYMC JEFFO JENKS JERRE JORAY JORGG JOSES JOVCU JSTIN JUELE JUNUR JURER KARRN KFFER KNDLL KNOST KPASA KRSTN KRTIS KUBIC KURAY LAMER LASEE LEEVI LENDS LENUS LEPAS LERUG LETON LLAKE LLNCH LNHOM LOGVN LOUIZ LOULO LUCSS LUCTI LYMIN MACKI MAJIK MALET MALVN MAMML MANII MAPYL MARCI MAXIM MAYAG MELON MENDL MICAS MILLE MLLER MLSAP MMDUQ MNATE MNDEZ MRTEE MUSSH MUVOD MYSTR NATHY NATLE NELSR NETTA NICKO NOPIT NUCAR OHBEE OHENU OHLAA OMALY OVIDO OZENA PAARR PAMMS PEGYY PEKRE PERMT PETEE POKEG PREDA PRRDO PRUNE RAHAM RAJAY RAMJT RAPPR RATTL RELLI REMIS RENAH RNDLY RNTRY RODRK ROSEA ROTHM RVERO RYDEL SAAKO SABRE SANNS SAPPO SCOBY SEBUG SEKAR SHAQQ SHOEZ SINGL SKHOT SKIPS SLEMA SLIDZ SLUKA SMTTY SNABS SNAGY SNAKR SNOMN STAAL STIFF STRUD SUMRS SWIMM TAANA TADPO TANIA TEPEE THNDR TINKY TOMAZ TOMEE TURBO TWNNS URSUS VALLY VRGAS WATRS WINCO WITOB WOODZ WSSKY YENNE ZAPPA ZOLLA ZWICK CYY DHP EYW FIS GTK LAL LBV MTH ORL PBI PHK PIE PVN RSW SRQ TRV VKZ ZBV ZFP ZIN ZQA ZTC" />
+		<CommandAlias Command=".PLAN" ReplaceWith="Please resend flightplan." />
+		<CommandAlias Command=".RGRBYE" ReplaceWith="Thanks for flying with us. Have a nice day!" />
+		<CommandAlias Command=".CLOSING" ReplaceWith="** Attention All Aircraft, $radioname($2) is closing in $1 minutes. **" />
+		<CommandAlias Command=".CLOSED" ReplaceWith="** Attention All Aircraft, $radioname($1) is closed at $time. Have a nice day! **" />
+		<CommandAlias Command=".BRB" ReplaceWith="** Attention All Aircraft, $radioname($2) will be back in $1 minutes. **" />
+		<CommandAlias Command=".BADRWY" ReplaceWith=".msg $aircraft Hello, you have started up on an active runway, please exit immediately and relocate your aircraft to the nearest ramp. Do not slew or taxi. Thank you." />
+		<CommandAlias Command=".BADTWY" ReplaceWith=".msg $aircraft Hello, you have started up on an active taxiway, please relocate your aircraft to the nearest ramp immediately. Do not slew or taxi. Thank you." />
+		<CommandAlias Command=".BADPUSH" ReplaceWith=".msg $aircraft Hello, please be observant of online ATC next time prior to pushing back from the gate and/or taxiing. Thank you." />
+		<CommandAlias Command=".PILOT" ReplaceWith=".msg $aircraft In order to better your flying experience and skill, please visit the VATSIM Pilot Resource Center at http://www.vatsim.net/prc" />
+		<CommandAlias Command=".PILOTP" ReplaceWith="In order to better your flying experience and skill, please visit the VATSIM Pilot Resource Center at http://www.vatsim.net/prc" />
+		<CommandAlias Command=".CHART" ReplaceWith=".msg $aircraft Here are charts for $uc($1): http://airnav.com/airport/K$uc($1)#IFR" />
+		<CommandAlias Command=".RA" ReplaceWith=".reloadaliases" />
+		<CommandAlias Command=".C" ReplaceWith=".CENTER $1" />
+		<CommandAlias Command=".OTA" ReplaceWith=".TRACKATIS KSFO KOAK KSJC KSMF KMRY KRNO" />
+		<CommandAlias Command=".MTA" ReplaceWith=".TRACKATIS KMIA KFLL KTPA KPBI KRSW KEYW KSRQ" />
+		<CommandAlias Command=".MAA" ReplaceWith=".AUTOTRACK KMIA KFLL KPMP KFXE KHWO KOPF KTMB KTPA KSRQ KLAL KPIE KBKV KSPG KBOW KEYW KNQX KRSW KAPF KFMY KPGD KPBI KBCT KSUA KFPR KVRB" />
+		<CommandAlias Command=".MANM" ReplaceWith=".AUTOTRACK -KMIA -KFLL -KPMP -KFXE -KHWO -KOPF -KTMB" />
+		<CommandAlias Command=".MANT" ReplaceWith=".AUTOTRACK -KTPA -KSRQ -KLAL -KPIE -KBKV -KSPG -KBOW" />
+		<CommandAlias Command=".MANN" ReplaceWith=".AUTOTRACK -KEYW -KNQX" />
+		<CommandAlias Command=".MANR" ReplaceWith=".AUTOTRACK -KRSW -KAPF -KFMY -KPGD" />
+		<CommandAlias Command=".MANP" ReplaceWith=".AUTOTRACK -KPBI -KBCT -KSUA" />
+		<CommandAlias Command=".OAA" ReplaceWith=".AUTOTRACK KSFO KOAK KSJC KMRY KSMF KRNO KFAT KNUQ KPAO KRHV KSNS KSQL KHWD KLVK KMOD KMER KSCK KBAB KMHR KSAC KAPC KSTS KCIC KRDD" />
+		<CommandAlias Command=".OANA" ReplaceWith=".AUTOTRACK -KSJC -KMRY -KNUQ -KPAO -KRHV -KSNS" />
+		<CommandAlias Command=".OANB" ReplaceWith=".AUTOTRACK -KSQL" />
+		<CommandAlias Command=".OANC" ReplaceWith=".AUTOTRACK -KHWD -KLVK -KMOD -KMER -KSCK" />
+		<CommandAlias Command=".OAND" ReplaceWith=".AUTOTRACK -KSFO -KOAK" />
+		<CommandAlias Command=".OANE" ReplaceWith=".AUTOTRACK -KSMF -KBAB -KMHR -KSAC" />
+		<CommandAlias Command=".OANR" ReplaceWith=".AUTOTRACK -KRNO" />
+		<CommandAlias Command=".OANF" ReplaceWith=".AUTOTRACK -KFAT" />
+		<CommandAlias Command=".OANH" ReplaceWith=".AUTOTRACK -KAPC -KSTS -KCIC -KRDD" />
+		<CommandAlias Command=".OANN" ReplaceWith=".AUTOTRACK -KSFO -KOAK -KSJC -KMRY -KSMF -KNUQ -KPAO -KRHV -KSNS -KSQL -KHWD -KLVK -KMOD -KMER -KSCK -KBAB -KMHR -KSAC" />
+		<CommandAlias Command=".AQ" ReplaceWith=".AUTOTRACK ALL" />
+		<CommandAlias Command=".AK" ReplaceWith=".AUTOTRACK NONE" />
+		<CommandAlias Command=".TFC" ReplaceWith="Traffic $1 o'clock, $2 miles, $uc($3), $400." />
+	</CommandAliases>
+	<CommandAliasesLastImported>2017-07-16T09:03:50.597-07:00</CommandAliasesLastImported>
+	<VSCSLandLineSpecs>
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="03" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="32250" />
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="01" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="25320" />
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="02" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="19820" />
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="06" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="32200" />
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="08" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="33900" />
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="17" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="28650" />
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="18" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="35070" />
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="19" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="23670" />
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="25" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="28220" />
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="26" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="24700" />
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="40" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="26320" />
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="59" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="34800" />
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="60" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="27220" />
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="62" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="32300" />
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="63" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="35200" />
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="64" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="26520" />
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="65" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="25070" />
+		<VSCSLandLineSpec FacilityID="ZMA" SectorID="68" LandLineType="Override" Prefix="MIA" Suffix="CTR" Frequency="33550" />
+		<VSCSLandLineSpec FacilityID="ZJX" SectorID="10" LandLineType="Intercom" Prefix="JAX" Suffix="CTR" Frequency="35050" />
+		<VSCSLandLineSpec FacilityID="ZJX" SectorID="13" LandLineType="Intercom" Prefix="JAX" Suffix="CTR" Frequency="34450" />
+		<VSCSLandLineSpec FacilityID="ZJX" SectorID="15" LandLineType="Intercom" Prefix="JAX" Suffix="CTR" Frequency="33320" />
+		<VSCSLandLineSpec FacilityID="ZJX" SectorID="30" LandLineType="Intercom" Prefix="JAX" Suffix="CTR" Frequency="24770" />
+		<VSCSLandLineSpec FacilityID="ZJX" SectorID="33" LandLineType="Intercom" Prefix="JAX" Suffix="CTR" Frequency="34850" />
+		<VSCSLandLineSpec FacilityID="F11" SectorID="E" LandLineType="Intercom" Prefix="MCO" Suffix="APP" Frequency="24800" />
+		<VSCSLandLineSpec FacilityID="F11" SectorID="B" LandLineType="Intercom" Prefix="MCO" Suffix="APP" Frequency="25550" />
+		<VSCSLandLineSpec FacilityID="F11" SectorID="L" LandLineType="Intercom" Prefix="MCO" Suffix="APP" Frequency="34050" />
+		<VSCSLandLineSpec FacilityID="MUFH" SectorID="C" LandLineType="Intercom" Prefix="MUFH" Suffix="CTR" Frequency="24550" />
+		<VSCSLandLineSpec FacilityID="MIA" SectorID="V" LandLineType="Intercom" Prefix="MIA" Suffix="APP" Frequency="24850" />
+		<VSCSLandLineSpec FacilityID="MIA" SectorID="N" LandLineType="Intercom" Prefix="MIA" Suffix="APP" Frequency="25750" />
+		<VSCSLandLineSpec FacilityID="MIA" SectorID="S" LandLineType="Intercom" Prefix="MIA" Suffix="APP" Frequency="20500" />
+		<VSCSLandLineSpec FacilityID="MIA" SectorID="A" LandLineType="Intercom" Prefix="MIA" Suffix="APP" Frequency="33050" />
+		<VSCSLandLineSpec FacilityID="MIA" SectorID="D" LandLineType="Intercom" Prefix="MIA" Suffix="DEP" Frequency="19450" />
+		<VSCSLandLineSpec FacilityID="MIA" SectorID="W" LandLineType="Intercom" Prefix="MIA" Suffix="DEP" Frequency="25500" />
+		<VSCSLandLineSpec FacilityID="MIA" SectorID="L" LandLineType="Intercom" Prefix="MIA" Suffix="DEP" Frequency="26050" />
+		<VSCSLandLineSpec FacilityID="MIA" SectorID="LC" LandLineType="Intercom" Prefix="MIA" Suffix="TWR" Frequency="18300" />
+		<VSCSLandLineSpec FacilityID="MIA" SectorID="GC" LandLineType="Intercom" Prefix="MIA" Suffix="GND" Frequency="21800" />
+		<VSCSLandLineSpec FacilityID="TPA" SectorID="W" LandLineType="Intercom" Prefix="TPA" Suffix="APP" Frequency="32520" />
+		<VSCSLandLineSpec FacilityID="TPA" SectorID="E" LandLineType="Intercom" Prefix="TPA" Suffix="APP" Frequency="18150" />
+		<VSCSLandLineSpec FacilityID="TPA" SectorID="R" LandLineType="Intercom" Prefix="TPA" Suffix="APP" Frequency="20650" />
+		<VSCSLandLineSpec FacilityID="TPA" SectorID="D" LandLineType="Intercom" Prefix="TPA" Suffix="DEP" Frequency="18800" />
+		<VSCSLandLineSpec FacilityID="TPA" SectorID="B" LandLineType="Intercom" Prefix="TPA" Suffix="DEP" Frequency="35500" />
+		<VSCSLandLineSpec FacilityID="TPA" SectorID="LC" LandLineType="Intercom" Prefix="TPA" Suffix="TWR" Frequency="19500" />
+		<VSCSLandLineSpec FacilityID="TPA" SectorID="GC" LandLineType="Intercom" Prefix="TPA" Suffix="GND" Frequency="21700" />
+		<VSCSLandLineSpec FacilityID="FLL" SectorID="LC" LandLineType="Intercom" Prefix="FLL" Suffix="TWR" Frequency="19300" />
+		<VSCSLandLineSpec FacilityID="FLL" SectorID="GC" LandLineType="Intercom" Prefix="FLL" Suffix="GND" Frequency="21400" />
+		<VSCSLandLineSpec FacilityID="RSW" SectorID="D" LandLineType="Intercom" Prefix="RSW" Suffix="APP" Frequency="26800" />
+		<VSCSLandLineSpec FacilityID="RSW" SectorID="A" LandLineType="Intercom" Prefix="RSW" Suffix="APP" Frequency="25150" />
+		<VSCSLandLineSpec FacilityID="RSW" SectorID="S" LandLineType="Intercom" Prefix="RSW" Suffix="APP" Frequency="19750" />
+		<VSCSLandLineSpec FacilityID="RSW" SectorID="F" LandLineType="Intercom" Prefix="RSW" Suffix="APP" Frequency="34420" />
+		<VSCSLandLineSpec FacilityID="PBI" SectorID="I" LandLineType="Intercom" Prefix="PBI" Suffix="APP" Frequency="24600" />
+		<VSCSLandLineSpec FacilityID="PBI" SectorID="F" LandLineType="Intercom" Prefix="PBI" Suffix="APP" Frequency="25200" />
+		<VSCSLandLineSpec FacilityID="PBI" SectorID="A" LandLineType="Intercom" Prefix="PBI" Suffix="APP" Frequency="25000" />
+		<VSCSLandLineSpec FacilityID="PBI" SectorID="K" LandLineType="Intercom" Prefix="PBI" Suffix="APP" Frequency="32800" />
+		<VSCSLandLineSpec FacilityID="NQX" SectorID="Y" LandLineType="Intercom" Prefix="NQX" Suffix="APP" Frequency="24025" />
+	</VSCSLandLineSpecs>
+	<VSCSFrequencySpecs>
+		<VSCSFrequencySpec Label="ZMA 03" Frequency="32250" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="MIA_3_CTR" />
+		<VSCSFrequencySpec Label="ZMA 01" Frequency="25320" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="MIA_1_CTR" />
+		<VSCSFrequencySpec Label="ZMA 02" Frequency="19820" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="MIA_2_CTR" />
+		<VSCSFrequencySpec Label="ZMA 06" Frequency="32200" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="MIA_6_CTR" />
+		<VSCSFrequencySpec Label="ZMA 08" Frequency="33900" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="MIA_8_CTR" />
+		<VSCSFrequencySpec Label="ZMA 17" Frequency="28650" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="MIA_17_CTR" />
+		<VSCSFrequencySpec Label="ZMA 18" Frequency="35070" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="MIA_18_CTR" />
+		<VSCSFrequencySpec Label="ZMA 19" Frequency="23670" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="MIA_19_CTR" />
+		<VSCSFrequencySpec Label="ZMA 25" Frequency="28220" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="MIA_25_CTR" />
+		<VSCSFrequencySpec Label="ZMA 26" Frequency="24700" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="MIA_26_CTR" />
+		<VSCSFrequencySpec Label="ZMA 40" Frequency="26320" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="MIA_40_CTR" />
+		<VSCSFrequencySpec Label="ZMA 59" Frequency="34800" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="ZMO_59_CTR" />
+		<VSCSFrequencySpec Label="ZMA 63" Frequency="35200" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="ZMO_63_CTR" />
+		<VSCSFrequencySpec Label="ZMA 64" Frequency="26520" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="MIA_64_CTR" />
+		<VSCSFrequencySpec Label="ZMA 65" Frequency="25070" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="MIA_65_CTR" />
+		<VSCSFrequencySpec Label="ZMA 68" Frequency="33550" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="MIA_68_CTR" />
+		<VSCSFrequencySpec Label="MIA APP" Frequency="24850" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="MIA_V_APP" />
+		<VSCSFrequencySpec Label="TPA APP" Frequency="20650" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="TPA_R_APP" />
+		<VSCSFrequencySpec Label="MIA LC" Frequency="18300" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="MIA_TWR" />
+		<VSCSFrequencySpec Label="FLL LC" Frequency="19300" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="FLL_TWR" />
+		<VSCSFrequencySpec Label="TPA LC" Frequency="19500" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="TPA_TWR" />
+		<VSCSFrequencySpec Label="MIA GC" Frequency="21800" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="MIA_GND" />
+		<VSCSFrequencySpec Label="FLL GC" Frequency="21400" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="FLL_GND" />
+		<VSCSFrequencySpec Label="TPA GC" Frequency="21700" VoiceServerAddress="voice.zmaartcc.net" VoiceChannelName="TPA_GND" />
+	</VSCSFrequencySpecs>
+	<Local>
+		<NetworkRating>C1</NetworkRating>
+		<NetworkFacility>CTR</NetworkFacility>
+		<DefaultCallsign>OAK_CTR</DefaultCallsign>
+		<ObserverCallsign>ZOA_XX_OBS</ObserverCallsign>
+		<ControllerInfo />
+		<RequestedAltimeters />
+		<RequestedWeatherReports />
+		<SelectedBeaconCodes />
+		<DisplaySettings />
+	</Local>
+	<IFRSquawkCodeRange Low="4500" High="4777" />
+	<VFRSquawkCodeRange Low="1000" High="2777" />
+	<EmergencyChecklist>
+		<string>ACFT IDENT/TYPE</string>
+		<string>NATURE OF EMERGENCY</string>
+		<string>PILOT INTENTIONS</string>
+		<string>FUEL REMAINING IN TIME</string>
+		<string>ACFT COLOR/SOULS</string>
+		<string>PIREP WX/IFR CAPABILITY</string>
+		<string>LAST KNOWN POSITION</string>
+		<string>ACFT HEADING/AIRSPEED</string>
+		<string>ACFT NAV EQUIP</string>
+		<string>NAVAID SIGNALS RECEIVED</string>
+	</EmergencyChecklist>
+	<PositionReliefChecklist>
+		<string>SECTOR CONFIGURATION</string>
+		<string>SPECIAL USE AIRSPACE</string>
+		<string>TMU RESTRICTIONS/NOTAMS</string>
+		<string>NAVAIDS/FREQ/VSCS/URET</string>
+		<string>NON RVSM/TRANSIT/PENDING</string>
+		<string>RADAR DISPLAY SETUP/EBUS</string>
+		<string>WEATHER/ALTIMETERS/PIREPS</string>
+		<string>SIGMETS/AIRPORT CONDITIONS</string>
+		<string>TRAFFIC CURRENT/PENDING</string>
+		<string />
+	</PositionReliefChecklist>
+</Facility>
