@@ -1,0 +1,749 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Facility>
+	<ID>ZOA</ID>
+	<Name>Oakland ARTCC</Name>
+	<VisibilityRange>300</VisibilityRange>
+	<ObserverVisibilityRange>300</ObserverVisibilityRange>
+	<VisCenter1 Lon="-122.59778" Lat="40.1461" />
+	<VisCenter2 Lon="-120.35444" Lat="35.39472" />
+	<VisCenter3 Lon="-117.20074" Lat="38.14174" />
+	<VisCenter4 Lon="-122.59778" Lat="37.92389" />
+	<RadarSites>
+		<RadarSite IsPrimary="false" ID="TPH" Elevation="7161" FloorSlope="0.3" PrimaryRange="0" SecondaryRange="250" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-117.20074" Lat="38.141739" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="PRB" Elevation="3749" FloorSlope="0.3" PrimaryRange="100" SecondaryRange="100" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-120.35444" Lat="35.39472" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="RBL" Elevation="514" FloorSlope="0" PrimaryRange="50" SecondaryRange="50" ReducedSeparationRange="40" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-122.30452" Lat="40.1461" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="SAC" Elevation="191" FloorSlope="0.3" PrimaryRange="0" SecondaryRange="40" ReducedSeparationRange="40" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-121.269" Lat="38.55381" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="FLX" Elevation="4031" FloorSlope="0.3" PrimaryRange="60" SecondaryRange="60" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-118.72243" Lat="39.40545" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="QMV" Elevation="700" FloorSlope="0.3" PrimaryRange="250" SecondaryRange="120" ReducedSeparationRange="40" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-122.59778" Lat="37.92389" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="QZZ" Elevation="3362" FloorSlope="0.3" PrimaryRange="320" SecondaryRange="320" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-124.16623" Lat="40.394203" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="BAM" Elevation="9720" FloorSlope="0.3" PrimaryRange="250" SecondaryRange="250" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-116.86786" Lat="40.4034" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="LMT" Elevation="6635" FloorSlope="0.3" PrimaryRange="250" SecondaryRange="250" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-121.97214" Lat="42.068956" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="VBG" Elevation="1582" FloorSlope="0.3" PrimaryRange="50" SecondaryRange="50" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-120.59478" Lat="34.587291" />
+		</RadarSite>
+		<RadarSite IsPrimary="false" ID="FAT" Elevation="425" FloorSlope="0.3" PrimaryRange="60" SecondaryRange="60" ReducedSeparationRange="0" ConeOfSilenceSlope="15" IsTerminal="false">
+			<Location Lon="-119.71865" Lat="36.77642" />
+		</RadarSite>
+	</RadarSites>
+	<TransitionAltitude>18000</TransitionAltitude>
+	<CALateralMinimum>5</CALateralMinimum>
+	<CAVerticalMinimum>1000</CAVerticalMinimum>
+	<CAFloor>0</CAFloor>
+	<Positions>
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 4" RadioName="San Francisco Radio" Prefix="ZAK" Suffix="FSS" Frequency="33950" SectorID="10" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 10" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="28699" SectorID="10" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 11" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="33700" SectorID="11" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 13" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="27450" SectorID="13" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 14" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="34550" SectorID="14" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 15" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="32800" SectorID="15" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 16" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="23800" SectorID="16" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 22" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="21250" SectorID="22" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 29" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="19750" SectorID="29" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 30" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="27170" SectorID="30" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 31" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="34975" SectorID="31" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 32" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="32950" SectorID="32" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 33" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="32050" SectorID="33" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 34" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="34370" SectorID="34" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 35" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="34150" SectorID="35" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 36" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="19970" SectorID="36" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 40" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="27800" SectorID="40" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 41" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="25850" SectorID="41" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 42" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="32200" SectorID="42" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 44" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="27950" SectorID="44" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 43" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="34450" SectorID="43" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 45" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="28800" SectorID="45" PositionSymbol="C" />
+		<PositionInfo InFacility="true" SectorName="Oakland Center Sector 46" RadioName="Oakland Center" Prefix="OAK" Suffix="CTR" Frequency="25750" SectorID="46" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Norcal combined" RadioName="Norcal Approach" Prefix="NCT" Suffix="APP" Frequency="35650" SectorID="Q2W" PositionSymbol="W" />
+		<PositionInfo InFacility="false" SectorName="Norcal combined" RadioName="Norcal Approach" Prefix="NCT" Suffix="APP" Frequency="33950" SectorID="Q2B" PositionSymbol="W" />
+		<PositionInfo InFacility="false" SectorName="NCT BOULDER" RadioName="Norcal Approach" Prefix="SFO" Suffix="APP" Frequency="33950" SectorID="Q2B" PositionSymbol="B" />
+		<PositionInfo InFacility="false" SectorName="NCT BUTTES" RadioName="Norcal Approach" Prefix="SMF" Suffix="APP" Frequency="20450" SectorID="Q5B" PositionSymbol="B" />
+		<PositionInfo InFacility="false" SectorName="NCT CASTLE" RadioName="Norcal Approach" Prefix="MOD" Suffix="APP" Frequency="20950" SectorID="Q3K" PositionSymbol="K" />
+		<PositionInfo InFacility="false" SectorName="NCT CEDAR" RadioName="Norcal Approach" Prefix="OAK" Suffix="APP" Frequency="28320" SectorID="Q2Z" PositionSymbol="Z" />
+		<PositionInfo InFacility="false" SectorName="NCT DELTA" RadioName="Norcal Approach" Prefix="SMF" Suffix="APP" Frequency="25250" SectorID="Q5D" PositionSymbol="D" />
+		<PositionInfo InFacility="false" SectorName="NCT DIABLO" RadioName="Norcal Approach" Prefix="OAK" Suffix="DEP" Frequency="27000" SectorID="Q4D" PositionSymbol="D" />
+		<PositionInfo InFacility="false" SectorName="NCT ELKHORN" RadioName="Norcal Approach" Prefix="SMF" Suffix="APP" Frequency="25400" SectorID="Q5E" PositionSymbol="E" />
+		<PositionInfo InFacility="false" SectorName="NCT EXPO" RadioName="Norcal Approach" Prefix="SMF" Suffix="APP" Frequency="27400" SectorID="Q5X" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="NCT FAIRFIELD" RadioName="Norcal Approach" Prefix="SMF" Suffix="DEP" Frequency="24320" SectorID="Q4F" PositionSymbol="F" />
+		<PositionInfo InFacility="false" SectorName="NCT FREMONT" RadioName="Norcal Approach" Prefix="MRY" Suffix="APP" Frequency="33000" SectorID="Q1F" PositionSymbol="F" />
+		<PositionInfo InFacility="false" SectorName="NCT GROVE" RadioName="Norcal Approach" Prefix="OAK" Suffix="APP" Frequency="25350" SectorID="Q3G" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="NCT HOOKS" RadioName="Norcal Approach" Prefix="SJC" Suffix="APP" Frequency="35200" SectorID="Q1K" PositionSymbol="K" />
+		<PositionInfo InFacility="false" SectorName="NCT LAGUNA" RadioName="Norcal Approach" Prefix="SFO" Suffix="APP" Frequency="28570" SectorID="Q2G" PositionSymbol="G" />
+		<PositionInfo InFacility="false" SectorName="NCT LICKE" RadioName="Norcal Approach" Prefix="SJC" Suffix="APP" Frequency="20100" SectorID="Q1L" PositionSymbol="L" />
+		<PositionInfo InFacility="false" SectorName="NCT MORGAN" RadioName="Norcal Approach" Prefix="SJC" Suffix="APP" Frequency="24520" SectorID="Q1M" PositionSymbol="M" />
+		<PositionInfo InFacility="false" SectorName="NCT MULFORD" RadioName="Norcal Approach" Prefix="OAK" Suffix="APP" Frequency="24400" SectorID="Q3M" PositionSymbol="M" />
+		<PositionInfo InFacility="false" SectorName="NCT NILES" RadioName="Norcal Approach" Prefix="SFO" Suffix="APP" Frequency="34500" SectorID="Q2N" PositionSymbol="N" />
+		<PositionInfo InFacility="false" SectorName="NCT NUGGET" RadioName="Norcal Approach" Prefix="RNO" Suffix="APP" Frequency="26300" SectorID="Q8N" PositionSymbol="N" />
+		<PositionInfo InFacility="false" SectorName="NCT PARADISE" RadioName="Norcal Approach" Prefix="SMF" Suffix="APP" Frequency="23700" SectorID="Q5P" PositionSymbol="P" />
+		<PositionInfo InFacility="false" SectorName="NCT QUAKE" RadioName="Norcal Approach" Prefix="NCT" Suffix="DEP" Frequency="27970" SectorID="Q8Q" PositionSymbol="Q" />
+		<PositionInfo InFacility="false" SectorName="NCT RICHMOND" RadioName="Norcal Approach" Prefix="OAK" Suffix="DEP" Frequency="20900" SectorID="Q4R" PositionSymbol="R" />
+		<PositionInfo InFacility="false" SectorName="NCT SECA" RadioName="Norcal Approach" Prefix="MRY" Suffix="APP" Frequency="27150" SectorID="Q1S" PositionSymbol="S" />
+		<PositionInfo InFacility="false" SectorName="NCT SILVER" RadioName="Norcal Approach" Prefix="RNO" Suffix="APP" Frequency="19200" SectorID="Q8S" PositionSymbol="S" />
+		<PositionInfo InFacility="false" SectorName="NCT SUNOL" RadioName="Norcal Approach" Prefix="OAK" Suffix="APP" Frequency="24800" SectorID="Q3S" PositionSymbol="S" />
+		<PositionInfo InFacility="false" SectorName="NCT SUTRO" RadioName="Norcal Approach" Prefix="SFO" Suffix="DEP" Frequency="35100" SectorID="Q4U" PositionSymbol="U" />
+		<PositionInfo InFacility="false" SectorName="NCT TOGA" RadioName="Norcal Approach" Prefix="SJC" Suffix="DEP" Frequency="21300" SectorID="Q1T" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="NCT TRACY" RadioName="Norcal Approach" Prefix="OAK" Suffix="APP" Frequency="23850" SectorID="Q3J" PositionSymbol="J" />
+		<PositionInfo InFacility="false" SectorName="NCT TURLOCK" RadioName="Norcal Approach" Prefix="SJC" Suffix="APP" Frequency="26470" SectorID="Q1Q" PositionSymbol="Q" />
+		<PositionInfo InFacility="false" SectorName="NCT VALLEY" RadioName="Norcal Approach" Prefix="MOD" Suffix="APP" Frequency="25100" SectorID="Q3Y" PositionSymbol="V" />
+		<PositionInfo InFacility="false" SectorName="NCT WOODSIDE" RadioName="Norcal Approach" Prefix="SFO" Suffix="APP" Frequency="35650" SectorID="Q2W" PositionSymbol="W" />
+		<PositionInfo InFacility="false" SectorName="Fresno Friant   " RadioName="Fresno Approach" Prefix="FAT" Suffix="APP" Frequency="19600" SectorID="F1F" PositionSymbol="F" />
+		<PositionInfo InFacility="false" SectorName="Fresno Chandler " RadioName="Fresno Approach" Prefix="FAT" Suffix="APP" Frequency="32350" SectorID="F1H" PositionSymbol="F" />
+		<PositionInfo InFacility="false" SectorName="Fresno South   " RadioName="Fresno Approach" Prefix="FAT" Suffix="APP" Frequency="18500" SectorID="F1S" PositionSymbol="F" />
+		<PositionInfo InFacility="false" SectorName="Fallon RATCF    " RadioName="Fallon Approach" Prefix="NFL" Suffix="APP" Frequency="20850" SectorID="05" PositionSymbol="Z" />
+		<PositionInfo InFacility="false" SectorName="Lemoore RATCF  " RadioName="Lemoore Approach" Prefix="NLC" Suffix="APP" Frequency="24100" SectorID="N1A" PositionSymbol="Z" />
+		<PositionInfo InFacility="false" SectorName="Travis RAPCON   " RadioName="Travis Approach" Prefix="SUU" Suffix="APP" Frequency="26600" SectorID="1N" PositionSymbol="Z" />
+		<PositionInfo InFacility="false" SectorName="Beale Final " RadioName="Beale Final Control" Prefix="BAB" Suffix="APP" Frequency="24550" SectorID="9B" PositionSymbol="F" />
+		<PositionInfo InFacility="false" SectorName="KSFO San Francisco Intl" RadioName="San Francisco Tower" Prefix="SFO" Suffix="TWR" Frequency="20500" SectorID="2V" PositionSymbol="V" />
+		<PositionInfo InFacility="false" SectorName="KOAK Metro Oakland Intl" RadioName="Oakland Tower" Prefix="OAK" Suffix="TWR" Frequency="27200" SectorID="3A" PositionSymbol="A" />
+		<PositionInfo InFacility="false" SectorName="KOAK Metro Oakland Intl" RadioName="Oakland Tower" Prefix="OAK" Suffix="TWR" Frequency="18300" SectorID="3O" PositionSymbol="O" />
+		<PositionInfo InFacility="false" SectorName="KSJC Mineta San Jose Intl" RadioName="San Jose Tower" Prefix="SJC" Suffix="TWR" Frequency="24000" SectorID="1X" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="KBAB Beale AFB" RadioName="Beale Tower" Prefix="BAB" Suffix="TWR" Frequency="19400" SectorID="5U" PositionSymbol="U" />
+		<PositionInfo InFacility="false" SectorName="KFAT Fresno Yosemite Intl" RadioName="Fresno Tower" Prefix="FAT" Suffix="TWR" Frequency="18200" SectorID="FT" PositionSymbol="%" />
+		<PositionInfo InFacility="false" SectorName="KMRY Monterey Penisula" RadioName="Monterey Tower" Prefix="MRY" Suffix="TWR" Frequency="18400" SectorID="1Z" PositionSymbol="Z" />
+		<PositionInfo InFacility="false" SectorName="KRNO Reno-Tahoe Intl" RadioName="Reno Tower" Prefix="RNO" Suffix="TWR" Frequency="18700" SectorID="8R" PositionSymbol="R" />
+		<PositionInfo InFacility="false" SectorName="KSMF Sacramento Intl" RadioName="Capitol Tower" Prefix="SMF" Suffix="TWR" Frequency="25700" SectorID="5V" PositionSymbol="V" />
+		<PositionInfo InFacility="false" SectorName="KAPC Napa County" RadioName="Napa Tower" Prefix="APC" Suffix="TWR" Frequency="18700" SectorID="4P" PositionSymbol="P" />
+		<PositionInfo InFacility="false" SectorName="KCCR Buchanan Field" RadioName="Concord Tower" Prefix="CCR" Suffix="TWR" Frequency="19700" SectorID="4B" PositionSymbol="B" />
+		<PositionInfo InFacility="false" SectorName="KCIC Chico Muni" RadioName="Chico Tower" Prefix="CIC" Suffix="TWR" Frequency="21000" SectorID="8O" PositionSymbol="O" />
+		<PositionInfo InFacility="false" SectorName="KHWD Hayward Exec" RadioName="Hayward Tower" Prefix="HWD" Suffix="TWR" Frequency="20200" SectorID="3E" PositionSymbol="E" />
+		<PositionInfo InFacility="false" SectorName="KLVK Livermore Muni" RadioName="Livermore Tower" Prefix="LVK" Suffix="TWR" Frequency="18100" SectorID="3L" PositionSymbol="L" />
+		<PositionInfo InFacility="false" SectorName="KMER Castle" RadioName="Castle Tower" Prefix="MER" Suffix="TWR" Frequency="18175" SectorID="TZ" PositionSymbol="%" />
+		<PositionInfo InFacility="false" SectorName="KMHR Sacramento Mather" RadioName="Mather Tower" Prefix="MHR" Suffix="TWR" Frequency="20650" SectorID="5M" PositionSymbol="M" />
+		<PositionInfo InFacility="false" SectorName="KMOD Modesto Harry Sham Field" RadioName="Modesto Tower" Prefix="MOD" Suffix="TWR" Frequency="25300" SectorID="3P" PositionSymbol="P" />
+		<PositionInfo InFacility="false" SectorName="KNUQ Moffet Federal" RadioName="Moffet Tower" Prefix="NUQ" Suffix="TWR" Frequency="19550" SectorID="1N" PositionSymbol="N" />
+		<PositionInfo InFacility="false" SectorName="KPAO Palo Alto" RadioName="Palo Alto Tower" Prefix="PAO" Suffix="TWR" Frequency="18600" SectorID="1P" PositionSymbol="P" />
+		<PositionInfo InFacility="false" SectorName="KRDD Redding Muni" RadioName="Redding Tower" Prefix="RDD" Suffix="TWR" Frequency="19800" SectorID="TR" PositionSymbol="%" />
+		<PositionInfo InFacility="false" SectorName="KRHV Reid-Hillview" RadioName="Reid-Hillview Tower" Prefix="RHV" Suffix="TWR" Frequency="26100" SectorID="1R" PositionSymbol="R" />
+		<PositionInfo InFacility="true" SectorName="KRHV Reid-Hillview" RadioName="Reid-Hillview Tower" Prefix="RHV" Suffix="TWR" Frequency="19800" SectorID="16" PositionSymbol="%" />
+		<PositionInfo InFacility="false" SectorName="KSAC Sacramento Exec" RadioName="Executive Tower" Prefix="SAC" Suffix="TWR" Frequency="19500" SectorID="5Z" PositionSymbol="Z" />
+		<PositionInfo InFacility="false" SectorName="KSCK Stockton Metro" RadioName="Stockton Tower" Prefix="SCK" Suffix="TWR" Frequency="20300" SectorID="3Z" PositionSymbol="Z" />
+		<PositionInfo InFacility="false" SectorName="KSNS Salinas Muni" RadioName="Salinas Tower" Prefix="SNS" Suffix="TWR" Frequency="19400" SectorID="1Y" PositionSymbol="Y" />
+		<PositionInfo InFacility="false" SectorName="KSQL San Carlos" RadioName="San Carlos Tower" Prefix="SQL" Suffix="TWR" Frequency="19000" SectorID="2S" PositionSymbol="S" />
+		<PositionInfo InFacility="false" SectorName="KSTS Schultz Sonoma County" RadioName="Santa Rosa Tower" Prefix="STS" Suffix="TWR" Frequency="18500" SectorID="4T" PositionSymbol="T" />
+		<PositionInfo InFacility="false" SectorName="Los Angeles Center" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="25800" SectorID="L04" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Los Angeles Center" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="34650" SectorID="L06" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Los Angeles Center" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="32600" SectorID="L13" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Los Angeles Center" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="19950" SectorID="L30" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Los Angeles Center" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="27350" SectorID="L36" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Los Angeles Center" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="33550" SectorID="L37" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Los Angeles Center" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="33200" SectorID="L39" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Los Angeles Center Sector 16" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="24620" SectorID="L16" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Los Angeles Center Sector 25" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="26520" SectorID="L25" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Los Angeles Center Sector 26" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="35300" SectorID="L26" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Los Angeles Center Sector 27" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="28370" SectorID="L27" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Los Angeles Center Sector 3" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="27100" SectorID="L03" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Los Angeles Center Sector 15" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="19050" SectorID="L15" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Los Angeles Center Sector 28" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="32150" SectorID="L28" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Santa Barbara Approach" RadioName="Santa Barbara Approach" Prefix="SBA" Suffix="APP" Frequency="25400" SectorID="37" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="Bakersfield Approach" RadioName="Bakersfield Approach" Prefix="BFL" Suffix="APP" Frequency="18800" SectorID="38" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="Joshua Approach" RadioName="Joshua Approach" Prefix="EDW" Suffix="APP" Frequency="24550" SectorID="39" PositionSymbol="E1B" />
+		<PositionInfo InFacility="false" SectorName="Nellis Control" RadioName="Nellis Control" Prefix="LSV" Suffix="APP" Frequency="26650" SectorID="3A" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="Nellis Control" RadioName="Nellis Control" Prefix="LSV" Suffix="APP" Frequency="24950" SectorID="3B" PositionSymbol="X" />
+		<PositionInfo InFacility="false" SectorName="Salt Lake Center" RadioName="Salt Lake Center" Prefix="SLC" Suffix="CTR" Frequency="33600" SectorID="U60" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Salt Lake Center" RadioName="Salt Lake Center" Prefix="SLC" Suffix="CTR" Frequency="20270" SectorID="U33" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Salt Lake Center" RadioName="Salt Lake Center" Prefix="SLC" Suffix="CTR" Frequency="32250" SectorID="U62" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Salt Lake Center" RadioName="Salt Lake Center" Prefix="SLC" Suffix="CTR" Frequency="33250" SectorID="U65" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Salt Lake Center Sector 42" RadioName="Salt Lake Center" Prefix="SLC" Suffix="CTR" Frequency="28720" SectorID="U42" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Salt Lake Center Sector 45" RadioName="Salt Lake Center" Prefix="SLC" Suffix="CTR" Frequency="34520" SectorID="U45" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Salt Lake Center Sector 43" RadioName="Salt Lake Center" Prefix="SLC" Suffix="CTR" Frequency="32250" SectorID="U43" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Salt Lake Center Sector 47" RadioName="Salt Lake Center" Prefix="SLC" Suffix="CTR" Frequency="33450" SectorID="U47" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Seattle Center" RadioName="Seattle Center" Prefix="SEA" Suffix="CTR" Frequency="24200" SectorID="S42" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Seattle Center" RadioName="Seattle Center" Prefix="SEA" Suffix="CTR" Frequency="20300" SectorID="S43" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Seattle Center" RadioName="Seattle Center" Prefix="SEA" Suffix="CTR" Frequency="26100" SectorID="S18" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Seattle Center" RadioName="Seattle Center" Prefix="SEA" Suffix="CTR" Frequency="28449" SectorID="S44" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Seattle Center" RadioName="Seattle Center" Prefix="SEA" Suffix="CTR" Frequency="35150" SectorID="S45" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Seattle Center" RadioName="Seattle Center" Prefix="SEA" Suffix="CTR" Frequency="23950" SectorID="S46" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Seattle Center" RadioName="Seattle Center" Prefix="SEA" Suffix="CTR" Frequency="27600" SectorID="S47" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Seattle Center" RadioName="Seattle Center" Prefix="SEA" Suffix="CTR" Frequency="26600" SectorID="S48" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Seattle Center Sector 13" RadioName="Seattle Center" Prefix="SEA" Suffix="CTR" Frequency="35350" SectorID="S13" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Seattle Center Sector 14" RadioName="Seattle Center" Prefix="SEA" Suffix="CTR" Frequency="34900" SectorID="S14" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Seattle Center Sector 15" RadioName="Seattle Center" Prefix="SEA" Suffix="CTR" Frequency="35150" SectorID="S15" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Seattle Center Sector 10" RadioName="Seattle Center" Prefix="SEA" Suffix="CTR" Frequency="27600" SectorID="S13" PositionSymbol="C" />
+		<PositionInfo InFacility="false" SectorName="Seattle Center Sector 30" RadioName="Seattle Center" Prefix="SEA" Suffix="CTR" Frequency="24850" SectorID="S14" PositionSymbol="C" />
+	</Positions>
+	<PositionsLastImported>2018-05-02T22:12:07.0089854-07:00</PositionsLastImported>
+	<CommandAliases>
+		<CommandAlias Command=".gm" ReplaceWith="Good morning" />
+		<CommandAlias Command=".ga" ReplaceWith="Good afternoon" />
+		<CommandAlias Command=".ge" ReplaceWith="Good evening" />
+		<CommandAlias Command=".y" ReplaceWith="Affirmative" />
+		<CommandAlias Command=".n" ReplaceWith="Negative" />
+		<CommandAlias Command=".thx" ReplaceWith="Thank you" />
+		<CommandAlias Command=".sa" ReplaceWith="Say again" />
+		<CommandAlias Command=".checksq" ReplaceWith="Check your squawk code, squawk $squawk." />
+		<CommandAlias Command=".sqn" ReplaceWith="Squawk normal / Mode C" />
+		<CommandAlias Command=".id" ReplaceWith="Ident." />
+		<CommandAlias Command=".sqi" ReplaceWith="Squawk $squawk and ident." />
+		<CommandAlias Command=".sq" ReplaceWith="Squawk $squawk." />
+		<CommandAlias Command=".rsq" ReplaceWith="Reset transponder, squawk $squawk." />
+		<CommandAlias Command=".alt" ReplaceWith="$1 Altimeter $altim($1)" />
+		<CommandAlias Command=".depalt" ReplaceWith="$dep altimeter $altim($dep)" />
+		<CommandAlias Command=".arralt" ReplaceWith="$arr altimeter $altim($arr)" />
+		<CommandAlias Command=".me" ReplaceWith="$metar($1)" />
+		<CommandAlias Command=".depme" ReplaceWith="$metar($dep)" />
+		<CommandAlias Command=".arrme" ReplaceWith="$metar($arr)" />
+		<CommandAlias Command=".depcharts" ReplaceWith="All current departure procedures for $dep can be found on www.airnav.com/airport/$dep" />
+		<CommandAlias Command=".arrcharts" ReplaceWith="All current arrival procedures and instrument approaches for $arr can be found on www.airnav.com/airport/$arr" />
+		<CommandAlias Command=".ho" ReplaceWith="Contact $atccallsign($1) on $freq($1)" />
+		<CommandAlias Command=".noatc" ReplaceWith="No further ATC is available, monitor UNICOM on 122.80, have a good day." />
+		<CommandAlias Command=".po" ReplaceWith="Pointout, $dist($1) miles $bear($1) of $1, $aircraft at $calt" />
+		<CommandAlias Command=".poa" ReplaceWith="Pointout approved, $1" />
+		<CommandAlias Command=".fb" ReplaceWith=".msg $aircraft To improve our services provided to you as a pilot, please be so kind and take a minute to provide feedback on $myrealname working $callsign at &quot;http://www.oakartcc.com/pilot-feedback/&quot;. Thank you for your assistance." />
+		<CommandAlias Command=".pdc" ReplaceWith=".msg $aircraft **** PREDEPARTURE ATC CLEARANCE **** $aircraft   DEPART $dep   AT $ftime(30)Z   $cruise | $type($aircraft)    TRANSPONDER $squawk | ROUTE  $dep $route $arr | *CLB VIA SID*   EXP $cruise 10 MIN AFT DP DPFRQ $1   PLAN RWY $uc($2) ATC MAY CHANGE ANY TIME   CTC $freq() FOR REVISION" />
+		<CommandAlias Command=".pdcc" ReplaceWith=".msg $aircraft **** PREDEPARTURE ATC CLEARANCE **** $aircraft   DEPART $dep   AT $ftime(30)Z   $cruise | $type($aircraft)    TRANSPONDER $squawk | ROUTE CHANGED  - $dep $route $arr - | *CLB VIA SID*   EXP $cruise 10 MIN AFT DP DPFRQ $1   PLAN RWY $uc($2) ATC MAY CHANGE ANY TIME   CTC $freq() FOR REVISION" />
+		<CommandAlias Command=".pdcx" ReplaceWith=".msg $aircraft **** PREDEPARTURE ATC CLEARANCE **** $aircraft   DEPART $dep   AT $ftime(30)Z   $cruise | $type($aircraft)    TRANSPONDER $squawk | ROUTE  $dep $route $arr | *CLB VIA SID EXC MAINT $1*   EXP $cruise 10 MIN AFT DP DPFRQ $2   PLAN RWY $uc($3) ATC MAY CHANGE ANY TIME   CTC $freq() FOR REVISION" />
+		<CommandAlias Command=".pdcxc" ReplaceWith=".msg $aircraft **** PREDEPARTURE ATC CLEARANCE **** $aircraft   DEPART $dep   AT $ftime(30)Z   $cruise | $type($aircraft)    TRANSPONDER $squawk | ROUTE CHANGED  - $dep $route $arr - | *CLB VIA SID EXC MAINT $1*   EXP $cruise 10 MIN AFT DP DPFRQ $2   PLAN RWY $uc($3) ATC MAY CHANGE ANY TIME   CTC $freq() FOR REVISION" />
+		<CommandAlias Command=".pdcm" ReplaceWith=".msg $aircraft **** PREDEPARTURE ATC CLEARANCE **** $aircraft   DEPART $dep   AT $ftime(30)Z   $cruise | $type($aircraft)    TRANSPONDER $squawk | ROUTE  $dep $route $arr | *MAINTAIN $1*   EXP $cruise 10 MIN AFT DP DPFRQ $2   PLAN RWY $uc($3) ATC MAY CHANGE ANY TIME   CTC $freq() FOR REVISION" />
+		<CommandAlias Command=".pdcmc" ReplaceWith=".msg $aircraft **** PREDEPARTURE ATC CLEARANCE **** $aircraft   DEPART $dep   AT $ftime(30)Z   $cruise | $type($aircraft)    TRANSPONDER $squawk | ROUTE CHANGED  - $dep $route $arr - | *MAINTAIN $1*   EXP $cruise 10 MIN AFT DP DPFRQ $2   PLAN RWY $uc($3) ATC MAY CHANGE ANY TIME   CTC $freq() FOR REVISION" />
+		<CommandAlias Command=".nopdc" ReplaceWith=".msg $aircraft **** PREDEPARTURE ATC CLEARANCE **** PRE-DEPARTURE CLEARANCE UNAVAILABLE. CTC $freq() FOR CLEARANCE." />
+		<CommandAlias Command=".cor" ReplaceWith="clearance on request, standby..." />
+		<CommandAlias Command=".pref" ReplaceWith="preferred route to $arr is" />
+		<CommandAlias Command=".can" ReplaceWith="- can you accept?" />
+		<CommandAlias Command=".preftec" ReplaceWith="preferred route to $arr is $route - can you accept?" />
+		<CommandAlias Command=".cua" ReplaceWith="Can you accept the $1 departure?" />
+		<CommandAlias Command=".cuarv" ReplaceWith="Can you accept the $1 departure, radar vectors $2, then as filed?" />
+		<CommandAlias Command=".cuatr" ReplaceWith="Can you accept the $1 departure, $2 transition, then as filed?" />
+		<CommandAlias Command=".xfp" ReplaceWith="I have no flightplan for you, please refile." />
+		<CommandAlias Command=".wralt" ReplaceWith="The altitude you filed is incorrect your direction of flight, may I suggest $1 or $2?" />
+		<CommandAlias Command=".wrrte" ReplaceWith="The route you filed is not the preferred route for this flight, may I suggest the following routing: $1" />
+		<CommandAlias Command=".cdt" ReplaceWith="cleared to $arr airport; $1 departure, $2 transition, then as filed;" />
+		<CommandAlias Command=".cd" ReplaceWith="cleared to $arr airport; $1 departure, $2, then as filed;" />
+		<CommandAlias Command=".cdrv" ReplaceWith="cleared to $arr airport via radar vectors to $1, then as filed;" />
+		<CommandAlias Command=".cdrw" ReplaceWith="cleared to $arr airport; via fly runway heading, radar vectors to $1, then as filed;" />
+		<CommandAlias Command=".cdhg" ReplaceWith="cleared to $arr airport; via fly heading $1, radar vectors to $2, then as filed;" />
+		<CommandAlias Command=".cdtd" ReplaceWith="cleared to $arr airport; $1 departure, $2 transition, direct $arr airport;" />
+		<CommandAlias Command=".cdd" ReplaceWith="cleared to $arr airport; $1 departure, $2, direct $arr airport;" />
+		<CommandAlias Command=".cdrwd" ReplaceWith="cleared to $arr airport; via fly runway heading, radar vectors to $1, direct $arr airport;" />
+		<CommandAlias Command=".cdrvd" ReplaceWith="cleared to $arr airport via radar vectors to $1, direct $arr airport;" />
+		<CommandAlias Command=".cdhgd" ReplaceWith="cleared to $arr airport; via fly heading $1, radar vectors to $2, direct $arr airport;" />
+		<CommandAlias Command=".cdf" ReplaceWith="cleared to $arr airport; $1 departure, $2 transition, $3 arrival;" />
+		<CommandAlias Command=".cfiled" ReplaceWith="cleared to $arr airport as filed;" />
+		<CommandAlias Command=".calt" ReplaceWith="maintain 5,000, expect $cruise 10 minutes after departure, departure frequency $freq($1), squawk $squawk" />
+		<CommandAlias Command=".calt10" ReplaceWith="maintain 10,000, expect $cruise 10 minutes after departure, departure frequency $freq($1), squawk $squawk" />
+		<CommandAlias Command=".calt15" ReplaceWith="maintain 15,000, expect $cruise 10 minutes after departure, departure frequency $freq($1), squawk $squawk" />
+		<CommandAlias Command=".calt19" ReplaceWith="maintain FL190, expect $cruise 10 minutes after departure, departure frequency $freq($1), squawk $squawk" />
+		<CommandAlias Command=".caltu" ReplaceWith="maintain 5,000, expect $cruise 10 minutes after departure, departure�s not online, squawk $squawk" />
+		<CommandAlias Command=".calt10u" ReplaceWith="maintain 10,000, expect $cruise 10 minutes after departure, departure�s not online, squawk $squawk" />
+		<CommandAlias Command=".calt15u" ReplaceWith="maintain 15,000, expect $cruise 10 minutes after departure, departure�s not online, squawk $squawk" />
+		<CommandAlias Command=".calt19u" ReplaceWith="maintain FL190, expect $cruise 10 minutes after departure, departure�s not online, squawk $squawk" />
+		<CommandAlias Command=".cvs" ReplaceWith="climb via SID, departure frequency $freq($1), squawk $squawk" />
+		<CommandAlias Command=".cvs5" ReplaceWith="climb via SID except maintain 5,000, departure frequency $freq($1), squawk $squawk" />
+		<CommandAlias Command=".cvs10" ReplaceWith="climb via SID except maintain 10,0000, departure frequency $freq($1), squawk $squawk" />
+		<CommandAlias Command=".cvs15" ReplaceWith="climb via SID except maintain 15,000, departure frequency $freq($1), squawk $squawk" />
+		<CommandAlias Command=".cvs19" ReplaceWith="climb via SID except maintain FL190, departure frequency $freq($1), squawk $squawk" />
+		<CommandAlias Command=".cvsu" ReplaceWith="climb via SID, departure�s not online, squawk $squawk" />
+		<CommandAlias Command=".cvs5u" ReplaceWith="climb via SID except maintain 5,000, departure�s not online, squawk $squawk" />
+		<CommandAlias Command=".cvs10u" ReplaceWith="climb via SID except maintain 10,0000, departure�s not online, squawk $squawk" />
+		<CommandAlias Command=".cvs15u" ReplaceWith="climb via SID except maintain 15,000, departure�s not online, squawk $squawk" />
+		<CommandAlias Command=".cvs19u" ReplaceWith="climb via SID except maintain FL190, departure�s not online, squawk $squawk" />
+		<CommandAlias Command=".rbc" ReplaceWith="Readback correct, $dep wind $wind($dep), altimeter $altim($dep), expect runway $1 for departure, advise ready to taxi." />
+		<CommandAlias Command=".txv" ReplaceWith="Runway $1, taxi via $2 $3" />
+		<CommandAlias Command=".txp" ReplaceWith="Taxi to the ramp via $1, See ya!" />
+		<CommandAlias Command=".gav" ReplaceWith="Taxi to the general aviation parking via $1" />
+		<CommandAlias Command=".hs" ReplaceWith="hold short runway $1." />
+		<CommandAlias Command=".1r" ReplaceWith="Runway 1R, taxi via A, A1" />
+		<CommandAlias Command=".1l" ReplaceWith="Runway 1L, taxi via A, M1" />
+		<CommandAlias Command=".28l" ReplaceWith="Runway 28L, taxi via A, F, hold short runway 1L." />
+		<CommandAlias Command=".28R" ReplaceWith="Runway 28R, taxi via A, F, C, hold short runway 1L." />
+		<CommandAlias Command=".to" ReplaceWith="Wind $winds, runway $1, cleared for takeoff." />
+		<CommandAlias Command=".tor" ReplaceWith="RNAV to $1, wind $winds, runway $2, cleared for takeoff" />
+		<CommandAlias Command=".frh" ReplaceWith="Fly runway heading." />
+		<CommandAlias Command=".luaw" ReplaceWith="Runway $1, line-up and wait." />
+		<CommandAlias Command=".land" ReplaceWith="Wind $winds, runway $1, cleared to land." />
+		<CommandAlias Command=".ga" ReplaceWith="Go around." />
+		<CommandAlias Command=".coption" ReplaceWith="Wind $winds, runway $1, cleared for the option." />
+		<CommandAlias Command=".msi" ReplaceWith="Make straight in runway $1, $arr altimeter $altim($arr)." />
+		<CommandAlias Command=".elb" ReplaceWith="Enter left base runway $1, $arr altimeter $altim($arr)." />
+		<CommandAlias Command=".erb" ReplaceWith="Enter right base runway $1, $arr altimeter $altim($arr)." />
+		<CommandAlias Command=".eld" ReplaceWith="Enter left downwind runway $1, $arr altimeter $altim($arr)." />
+		<CommandAlias Command=".erd" ReplaceWith="Enter right downwind runway $1, $arr altimeter $altim($arr)." />
+		<CommandAlias Command=".mlt" ReplaceWith="Make left traffic" />
+		<CommandAlias Command=".mrt" ReplaceWith="Make right traffic" />
+		<CommandAlias Command=".ml3" ReplaceWith="Make a left 360." />
+		<CommandAlias Command=".mr3" ReplaceWith="Make a right 360." />
+		<CommandAlias Command=".extuw" ReplaceWith="Extend your upwind leg, I will call your crosswind turn." />
+		<CommandAlias Command=".extdw" ReplaceWith="Extend your downwind leg, I will call your base turn." />
+		<CommandAlias Command=".cjb" ReplaceWith="Caution, jet blast." />
+		<CommandAlias Command=".cwt" ReplaceWith="Caution, wake turbulence." />
+		<CommandAlias Command=".thip" ReplaceWith="Traffic holding in position runway $1." />
+		<CommandAlias Command=".tlr" ReplaceWith="Traffic landing runway $1." />
+		<CommandAlias Command=".wel" ReplaceWith="Welcome to $arr airport, exit left when able." />
+		<CommandAlias Command=".wer" ReplaceWith="Welcome to $arr airport, exit right when able." />
+		<CommandAlias Command=".newatis" ReplaceWith="Attention all aircraft, $1 ATIS information $atiscode now current, wind $wind($1), altimeter $altim($1)." />
+		<CommandAlias Command=".aa" ReplaceWith=".QS AIS" />
+		<CommandAlias Command=".fi" ReplaceWith=".QS FIS" />
+		<CommandAlias Command=".fm" ReplaceWith=".QS FMS" />
+		<CommandAlias Command=".gg" ReplaceWith=".QS GPS" />
+		<CommandAlias Command=".ee" ReplaceWith=".QS 2ER" />
+		<CommandAlias Command=".ii" ReplaceWith=".QS ILS" />
+		<CommandAlias Command=".lf" ReplaceWith=".QS LFT" />
+		<CommandAlias Command=".lc" ReplaceWith=".QS LOC" />
+		<CommandAlias Command=".mm" ReplaceWith=".QS MFU" />
+		<CommandAlias Command=".nn" ReplaceWith=".QS NDB" />
+		<CommandAlias Command=".oo" ReplaceWith=".QS OPN" />
+		<CommandAlias Command=".qa" ReplaceWith=".QS QBA" />
+		<CommandAlias Command=".rg" ReplaceWith=".QS RGT" />
+		<CommandAlias Command=".rr" ReplaceWith=".QS RNV" />
+		<CommandAlias Command=".rv" ReplaceWith=".QS RVA" />
+		<CommandAlias Command=".sv" ReplaceWith=".QS SVR" />
+		<CommandAlias Command=".tf" ReplaceWith=".QS TFC" />
+		<CommandAlias Command=".ti" ReplaceWith=".QS TIS" />
+		<CommandAlias Command=".tt" ReplaceWith=".QS TTA" />
+		<CommandAlias Command=".va" ReplaceWith=".QS VA" />
+		<CommandAlias Command=".vv" ReplaceWith=".QS VOR" />
+		<CommandAlias Command=".xx" ReplaceWith=".QS PIX" />
+		<CommandAlias Command=".yy" ReplaceWith=".QS YSM" />
+		<CommandAlias Command=".rc" ReplaceWith="radar contact" />
+		<CommandAlias Command=".rccm" ReplaceWith="radar contact, climb and maintain $uc($1)" />
+		<CommandAlias Command=".rcsalt" ReplaceWith="radar contact, say altitude" />
+		<CommandAlias Command=".rcvfr" ReplaceWith="radar contact, maintain VFR" />
+		<CommandAlias Command=".rcl" ReplaceWith="radar contact lost" />
+		<CommandAlias Command=".rcp" ReplaceWith="radar contact $dist($1) miles $bear($1) of $uc($1)" />
+		<CommandAlias Command=".rcpcm" ReplaceWith="radar contact $dist($1) miles $bear($1) of $uc($1), climb and maintain $2" />
+		<CommandAlias Command=".rcpsalt" ReplaceWith="radar contact $dist($1) miles $bear($1) of $uc($1), $arr altimeter $altim($arr), say altitude" />
+		<CommandAlias Command=".rcpsfl" ReplaceWith="radar contact $dist($1) miles $bear($1) of $uc($1), say flight level" />
+		<CommandAlias Command=".fhdct" ReplaceWith="Fly heading $1, when able proceed direct $2, resume own navigation." />
+		<CommandAlias Command=".cdct" ReplaceWith="Cleared direct $1, resume own navigation." />
+		<CommandAlias Command=".ron" ReplaceWith="Resume own navigation." />
+		<CommandAlias Command=".cv" ReplaceWith="climb via SID" />
+		<CommandAlias Command=".cvxm" ReplaceWith="climb via SID except maintain $1" />
+		<CommandAlias Command=".cvxa" ReplaceWith="climb via SID except cross $uc($1) at or above $2" />
+		<CommandAlias Command=".cvxb" ReplaceWith="climb via SID except cross $uc($1) at or below $2" />
+		<CommandAlias Command=".cm" ReplaceWith="Climb and maintain $1." />
+		<CommandAlias Command=".dm" ReplaceWith="Descend and maintain $1." />
+		<CommandAlias Command=".dpd" ReplaceWith="Descend at pilots discretion, maintain $1." />
+		<CommandAlias Command=".aftdm" ReplaceWith="After $1 descend and maintain $2." />
+		<CommandAlias Command=".xalt" ReplaceWith="Cross $1 at and maintain $2." />
+		<CommandAlias Command=".dscv" ReplaceWith="Descend via the $1 arrival, $arr altimeter $altim($arr)." />
+		<CommandAlias Command=".exapp" ReplaceWith="Expect $1 runway $2 approach." />
+		<CommandAlias Command=".tr" ReplaceWith="Turn right heading $1." />
+		<CommandAlias Command=".tl" ReplaceWith="Turn left heading $1." />
+		<CommandAlias Command=".fh" ReplaceWith="Fly heading $1." />
+		<CommandAlias Command=".fixhdg" ReplaceWith="Depart $1 heading $2." />
+		<CommandAlias Command=".cdct" ReplaceWith="Cleared direct $1, resume own navigation." />
+		<CommandAlias Command=".vecapp" ReplaceWith="Vectors for the approach." />
+		<CommandAlias Command=".vecv" ReplaceWith="Vector visual approach to $1." />
+		<CommandAlias Command=".mspd" ReplaceWith="Maintain $1 knots." />
+		<CommandAlias Command=".rspd" ReplaceWith="Reduce speed to $1." />
+		<CommandAlias Command=".ispd" ReplaceWith="Increase speed to $1." />
+		<CommandAlias Command=".ptacl" ReplaceWith="$dist($1) miles from $uc($1), turn left heading $2, maintain $3 until established on the localizer, cleared $4 runway $5 approach" />
+		<CommandAlias Command=".ptacr" ReplaceWith="$dist($1) miles from $uc($1), turn right heading $2, maintain $3 until established on the localizer, cleared $4 runway $5 approach" />
+		<CommandAlias Command=".locptac" ReplaceWith="$dist($1) miles from $uc($1), fly heading $2, maintain $3 until established on the localizer, cleared $4 runway $5 approach." />
+		<CommandAlias Command=".bcptac" ReplaceWith="$dist($1) miles from $uc($1), fly heading $2, maintain $3 until established on the localizer backcourse, cleared localizer backcourse runway $4 approach." />
+		<CommandAlias Command=".npptac" ReplaceWith="$dist($1) miles from $uc($1), fly heading $2, maintain $3 until established on the final approach course, cleared $4 runway $5 approach." />
+		<CommandAlias Command=".vapp" ReplaceWith="The $arr airport is at your $oclock($arr) and $dist($arr) miles, report the airport in sight." />
+		<CommandAlias Command=".cvapp" ReplaceWith="Cleared visual approach runway $1" />
+		<CommandAlias Command=".iafclr" ReplaceWith="Cleared direct $1, cross $1 at or above $2, cleared $3 runway $4 approach" />
+		<CommandAlias Command=".sap" ReplaceWith="When able, select approach to $arr." />
+		<CommandAlias Command=".rel" ReplaceWith="Released for departure, clearance void if not off by $ftime(30)Z. If not off by $ftime(30)Z, advise $callsign no later than $ftime(35)Z of intentions, time now $timeZ. Report airborne this frequency, change to advisory frequency approved" />
+		<CommandAlias Command=".hfr" ReplaceWith="Hold for release, remain this frequency" />
+		<CommandAlias Command=".notr" ReplaceWith="No traffic observed between you and the $arr airport, radar service terminated, report IFR cancellation this frequency, change to advisory frequency approved." />
+		<CommandAlias Command=".fma" ReplaceWith="Fly the missed approach procedure as published" />
+		<CommandAlias Command=".leavingb" ReplaceWith="Leaving San Francisco Bravo airspace. Radar service is terminated, squawk 1200, frequency change approved. Good day." />
+		<CommandAlias Command=".leavingc" ReplaceWith="Leaving Charlie airspace. Radar service is terminated, squawk 1200, frequency change approved. Good day." />
+		<CommandAlias Command=".coast" ReplaceWith="Turn left heading 200, resume the COAST7 departure." />
+		<CommandAlias Command=".nuevo" ReplaceWith="Turn left heading 200, resume the NUEVO7 departure." />
+		<CommandAlias Command=".skyl" ReplaceWith="Turn left heading 200, resume the SKYL5 departure." />
+		<CommandAlias Command=".loupe" ReplaceWith="Turn right direct SJC VOR, resume the LOUPE3 departure." />
+		<CommandAlias Command=".bsr" ReplaceWith="Cross BOLDR at and maintain 10,000 250 knots, KSFO altimeter $altim($arr)." />
+		<CommandAlias Command=".mod" ReplaceWith="Cross CEDES at and maintain 11,000, KSFO altimeter $alt($arr)." />
+		<CommandAlias Command=".bdegar" ReplaceWith="Join the 28R transition, expect $1 runway $2 approach. KSFO altimeter $altim($arr)." />
+		<CommandAlias Command=".bdegal" ReplaceWith="Join the 28L transition, expect $1 runway $2 approach. KSFO altimeter $altim($arr)." />
+		<CommandAlias Command=".pxn" ReplaceWith="Cross BORED at and maintain 10,000, KOAK altimeter $altim($arr)." />
+		<CommandAlias Command=".madn" ReplaceWith="Cross CATTY at and maintain 8,000, KOAK altimeter $altim($arr)." />
+		<CommandAlias Command=".emzoh30" ReplaceWith="Join the runway 30 transition, expect $1 runway $2 approach. KOAK altimeter $altim($arr)." />
+		<CommandAlias Command=".emzoh28" ReplaceWith="Join the runway 28 transition, expect $1 runway $2 approach. KOAK altimeter $altim($arr)." />
+		<CommandAlias Command=".wndsr30" ReplaceWith="Join the runway 30 transition, expect $1 runway $2 approach. KOAK altimeter $altim($arr)." />
+		<CommandAlias Command=".wndsr28" ReplaceWith="Join the runway 28 transition, expect $1 runway $2 approach. KOAK altimeter $altim($arr)." />
+		<CommandAlias Command=".robie" ReplaceWith="Cross GILRO at and maintain 8,000, KSJC altimeter $altim($arr)." />
+		<CommandAlias Command=".hyp" ReplaceWith="Cross PAPEE at 12,000, cross GILRO at and maintain 8,000, KSJC altimeter $altim($arr)." />
+		<CommandAlias Command=".qba" ReplaceWith="At ARCHI join the SFO-095 radial inbound, report the San Mateo bridge or the San Francisco Airport in sight." />
+		<CommandAlias Command=".cqba" ReplaceWith="Cross the San Mateo bridge at or above 1900, cleared Quiet Bridge Visual runway 28R approach." />
+		<CommandAlias Command=".tta" ReplaceWith="Join the Tip Toe Visual runway 28L approach, report the San Mateo bridge or the San Francisco Airport in sight." />
+		<CommandAlias Command=".ctta" ReplaceWith="Cross the San Mateo bridge at or above 1900, cleared Tip Toe Visual runway 28L approach." />
+		<CommandAlias Command=".fms" ReplaceWith="Proceed direct ARCHI, join the FMS Bridge Visual final approach course, report the San Mateo bridge or the San Francisco Airport in sight." />
+		<CommandAlias Command=".cfms" ReplaceWith="Cross the San Mateo bridge at or above 1900, cleared FMS Bridge Visual runway 28R approach." />
+		<CommandAlias Command=".exqba" ReplaceWith="Expect the Quiet Bridge Visual runway 28R approach." />
+		<CommandAlias Command=".extta" ReplaceWith="Expect the Tip Toe Visual runway 28L approach." />
+		<CommandAlias Command=".exfms" ReplaceWith="Expect the FMS Bridge Visual runway 28R approach." />
+		<CommandAlias Command=".repsfo" ReplaceWith="Report the San Fransisco Airport, or the Bridges in sight." />
+		<CommandAlias Command=".ctta" ReplaceWith="Cross MENLO at or above 5,000, cleared Tip Toe Visual Runway 28L approach." />
+		<CommandAlias Command=".i28R" ReplaceWith="$dist(CEPIN) miles from CEPIN, fly heading $1, maintain $2 until established on the localizer, cleared ILS runway 28R approach." />
+		<CommandAlias Command=".i28L" ReplaceWith="$dist(HEMAN) miles from HEMAN, fly heading $1, maintain $2 until established on the localizer, cleared ILS runway 28L approach." />
+		<CommandAlias Command=".i30" ReplaceWith="$dist(MYFUT) miles from MYFUT, fly heading $1, maintain $2 until established on the localizer, cleared ILS runway 30 approach." />
+		<CommandAlias Command=".i30L" ReplaceWith="$dist(KLIDE) miles from KLIDE, fly heading $1, maintain $2 until established on the localizer, cleared ILS runway 30L approach." />
+		<CommandAlias Command=".pye" ReplaceWith="Cross STINS at 11,000, cross HADLY at and maintain 7,000, KSFO altimeter $altim($arr)." />
+		<CommandAlias Command=".goldn" ReplaceWith="Cross LOZIT at and maintain 11,000, KSFO altimeter $altim($arr)." />
+		<CommandAlias Command=".serfrw" ReplaceWith="Descend via the SERFR1 arrival, west transition, KSFO altimeter $altim($arr)." />
+		<CommandAlias Command=".serfre" ReplaceWith="Descend via the SERFR1 arrival, east transition, KSFO altimeter $altim($arr)." />
+		<CommandAlias Command=".dyamd" ReplaceWith="Descend via the DYAMD1 arrival, KSFO altimeter $altim($arr)." />
+		<CommandAlias Command=".alwys" ReplaceWith="Descend via the ALWYS1 arrival, KSFO altimeter $altim($arr)." />
+		<CommandAlias Command=".bdega" ReplaceWith="Descend via the BDEGA1 arrival, KSFO altimeter $altim($arr)." />
+		<CommandAlias Command=".stler" ReplaceWith="Descend via the STLER1 arrival, KSFO altimeter $altim($arr)." />
+		<CommandAlias Command=".raidr" ReplaceWith="Cross RAIDR at and maintain 7,000, KOAK altimeter $altim($arr)." />
+		<CommandAlias Command=".emzohw" ReplaceWith="Descend via the EMZOH1 arrival, west transition, KOAK altimeter $altim($arr)." />
+		<CommandAlias Command=".emzohe" ReplaceWith="Descend via the EMZOH1 arrival, east transition, KOAK altimeter $altim($arr)." />
+		<CommandAlias Command=".oakesw" ReplaceWith="Descend via the OAKES1 arrival, west transition, KOAK altimeter $altim($arr)." />
+		<CommandAlias Command=".oakese" ReplaceWith="Descend via the OAKES1 arrival, east transition, KOAK altimeter $altim($arr)." />
+		<CommandAlias Command=".wndsr" ReplaceWith="Descend via the WNDSR1 arrival, KOAK altimeter $altim($arr)." />
+		<CommandAlias Command=".aanet" ReplaceWith="Descend via the AANET1 arrival, KOAK altimeter $altim($arr)." />
+		<CommandAlias Command=".goldnsjc" ReplaceWith="Cross DUXBY at and maintain 12,000, KSJC altimeter $altim($arr)." />
+		<CommandAlias Command=".silcnw" ReplaceWith="Descend via the SILCN2 arrival, west transition, KSJC altimeter $altim($arr)." />
+		<CommandAlias Command=".silcne" ReplaceWith="Descend via the SILCN2 arrival, east transition, KSJC altimeter $altim($arr)." />
+		<CommandAlias Command=".razrrw" ReplaceWith="Descend via the RAZRR2 arrival, west transition, KSJC altimeter $altim($arr)." />
+		<CommandAlias Command=".razrre" ReplaceWith="Descend via the RAZRR2 arrival, east transition, KSJC altimeter $altim($arr)." />
+		<CommandAlias Command=".brixx" ReplaceWith="Descend via the BRIXX1 arrival, KSJC altimeter $altim($arr)." />
+		<CommandAlias Command=".frlon" ReplaceWith="Descend via the FRLON1 arrival, KSJC altimeter $altim($arr)." />
+		<CommandAlias Command=".oa" ReplaceWith=".QS OA1" />
+		<CommandAlias Command=".sf" ReplaceWith=".QS SF1" />
+		<CommandAlias Command=".sj" ReplaceWith=".QS SJ1" />
+		<CommandAlias Command=".sm" ReplaceWith=".QS SM1" />
+		<CommandAlias Command=".ma" ReplaceWith=".QS MA1" />
+		<CommandAlias Command=".rn" ReplaceWith=".QS RN1" />
+		<CommandAlias Command=".phold" ReplaceWith="Cleared direct $1, hold as published, expect further clearance $ftime($2) Zulu." />
+		<CommandAlias Command=".hold" ReplaceWith="Cleared direct $1, hold $2 of $1 on $1-$3 radial $4, $5 turns, $6 minute legs, expect further clearance $ftime($7) Zulu." />
+		<CommandAlias Command=".nctwx" ReplaceWith=".qd KSFO KOAK KSJC KSMF KMRY" />
+		<CommandAlias Command=".ctrwx" ReplaceWith=".qd KSFO KOAK KSJC KSMF KRNO KFAT" />
+		<CommandAlias Command=".lmaoak" ReplaceWith="Leaving my airspace, Oakland Center is not online, radar service terminated, frequency change approved, have a good day" />
+		<CommandAlias Command=".lmasea" ReplaceWith="Leaving my airspace, Seattle Center is not online, radar service terminated, frequency change approved, have a good day" />
+		<CommandAlias Command=".lmalax" ReplaceWith="Leaving my airspace, Los Angeles Center is not online, radar service terminated, frequency change approved, have a good day" />
+		<CommandAlias Command=".lmaslc" ReplaceWith="Leaving my airspace, Salt Lake City Center is not online, radar service terminated, frequency change approved, have a good day" />
+		<CommandAlias Command=".lmazak" ReplaceWith="Leaving my airspace, San Francisco Radio is not online, radar service terminated, squawk 2000, frequency change approved, have a good day" />
+		<CommandAlias Command=".BADRWY1" ReplaceWith=".msg $aircraft Hello, you have started up on an active runway, please disconnect immediately and relocate your aircraft to the nearest ramp. Do not slew or taxi. Thank you." />
+		<CommandAlias Command=".BADTWY1" ReplaceWith=".msg $aircraft Hello, you have started up on an active taxiway, please relocate your aircraft to the nearest ramp immediately. Do not slew or taxi. Thank you." />
+		<CommandAlias Command=".BADPUSH1" ReplaceWith=".msg $aircraft Hello, please be observant of online ATC next time prior to pushing back from the gate and/or taxiing. Thank you." />
+		<CommandAlias Command=".BADRWY" ReplaceWith="Hello, you have started up on an active runway, please disconnect immediately and relocate your aircraft to the nearest ramp. Do not slew or taxi. Thank you." />
+		<CommandAlias Command=".BADTWY" ReplaceWith="Hello, you have started up on an active taxiway, please relocate your aircraft to the nearest ramp immediately. Do not slew or taxi. Thank you." />
+		<CommandAlias Command=".BADPUSH" ReplaceWith="Hello, please be observant of online ATC next time prior to pushing back from the gate and/or taxiing. Thank you." />
+		<CommandAlias Command=".PRC" ReplaceWith="In order to better your flying experience and skill, please visit the VATSIM Pilot Resource Center at http://www.vatsim.net/prc" />
+		<CommandAlias Command=".PRCNEW" ReplaceWith="Welcome to VATSIM! In order to have a better understanding of the basics, and to know what is required of you as pilot, please visit the VATSIM Pilot Resource Center at http://www.vatsim.net/prc." />
+		<CommandAlias Command=".PRCBUSY" ReplaceWith="While I would love to answer your questions and help you become familiar with the VATSIM environment, my work load is quite large at this time. Please visit the Pilot Resource Center located at http://wwww.vatsim.net/prc. We hope to see you back after you have a better understanding of what is required as a pilot on VATSIM." />
+		<CommandAlias Command=".fatcx" ReplaceWith=".msg ZOA_HELPER *** ::: Fresno Complex Airports - FAT, FCH, VIS :::" />
+		<CommandAlias Command=".mhrcx" ReplaceWith=".msg ZOA_HELPER *** ::: Mather Complex Airports - MHR, AUN, BAB, GOO, LHM, MCC, MYV, OVE, PVF :::" />
+		<CommandAlias Command=".modcx" ReplaceWith=".msg ZOA_HELPER *** ::: Modesto Complex Airports - MOD, LSN, MCE, MER :::" />
+		<CommandAlias Command=".mrycx" ReplaceWith=".msg ZOA_HELPER *** ::: Monterey Complex Airports - MRY, SNS, CVH, WVI, OAR :::" />
+		<CommandAlias Command=".apccx" ReplaceWith=".msg ZOA_HELPER *** ::: Napa Complex Airports - APC, DVO, STS, O69 :::" />
+		<CommandAlias Command=".oakcx" ReplaceWith=".msg ZOA_HELPER *** ::: Oakland Complex Airports - OAK, HWD :::" />
+		<CommandAlias Command=".saccx" ReplaceWith=".msg ZOA_HELPER *** ::: Sacramento Complex Airports - SMF, SAC, O88 :::" />
+		<CommandAlias Command=".sfocx" ReplaceWith=".msg ZOA_HELPER *** ::: San Francisco Complex Airports - SFO, HAF, SQL :::" />
+		<CommandAlias Command=".sjccx" ReplaceWith=".msg ZOA_HELPER *** ::: San Jose Complex Airports - SJC, NUQ, PAO, RHV, E16 :::" />
+		<CommandAlias Command=".sckcx" ReplaceWith=".msg ZOA_HELPER *** ::: Stockton Complex Airports - SCK, LVK, TCY, C83, O27, 1O3 :::" />
+		<CommandAlias Command=".suucx" ReplaceWith=".msg ZOA_HELPER *** ::: Travis Complex Airports - SUU, CCR, VCB, O41, EDU, DWA :::" />
+		<CommandAlias Command=".afivainfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 5000 (RW01) / 3000 (RW28) ::: TURBO PROPS ONLY" />
+		<CommandAlias Command=".ciityinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 5000 :::" />
+		<CommandAlias Command=".foggginfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 5000 :::" />
+		<CommandAlias Command=".gappinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Maintain 3000 (RW28) / 5000 (All Other RW) :::" />
+		<CommandAlias Command=".gnrrinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".moleninfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 3000 (RW28) / 5000 (All Other RW) :::" />
+		<CommandAlias Command=".niiteinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 3000 (RW28) / 5000 (RW01) ::: NOISE ABATEMENT ONLY 2200-0700 LCL" />
+		<CommandAlias Command=".offshinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 3000 (RW28) / 5000 (RW01) :::" />
+		<CommandAlias Command=".saheyinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 5000 :::" />
+		<CommandAlias Command=".sfoinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 3000 (RW28) / 5000 (RW01) :::" />
+		<CommandAlias Command=".sntnainfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".sstikinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 5000 :::" />
+		<CommandAlias Command=".trukninfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 3000 (RW28) / 5000 (RW01) :::" />
+		<CommandAlias Command=".weslainfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".cndelinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".coastinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 10000 :::" />
+		<CommandAlias Command=".husshinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 10000 ::: NOISE ABATEMENT ONLY 2200-0600 LCL" />
+		<CommandAlias Command=".katfhinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 3000 :::" />
+		<CommandAlias Command=".nimiinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Maintain 10000 :::" />
+		<CommandAlias Command=".nuevoinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 10000 :::" />
+		<CommandAlias Command=".oakinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 10000 :::" />
+		<CommandAlias Command=".saladinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 10000 ::: CAT A/B PROP ONLY ::: NOISE ABATEMENT ONLY 2200-0600 LCL" />
+		<CommandAlias Command=".slntinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 10000 ::: NOISE ABATEMENT ONLY 2200-0600 LCL" />
+		<CommandAlias Command=".skylinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 3000 (RW 12 or 10) / 10000 (RW30 or 28) :::" />
+		<CommandAlias Command=".almdninfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 3000 :::" />
+		<CommandAlias Command=".bmrnginfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 3000 :::" />
+		<CommandAlias Command=".loupeinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".sjcinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".sunolinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 3000 (RW12) / 5000 (RW30) ::: PROP AIRCRAFT ONLY" />
+		<CommandAlias Command=".teckyinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID except maintain 3000 (RW12) / 5000 (RW30) :::" />
+		<CommandAlias Command=".dudesinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Maintain 9000 :::" />
+		<CommandAlias Command=".frogoinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Maintain 9000 :::" />
+		<CommandAlias Command=".fthilinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".rvrctinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".sctwninfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".mryinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".toroinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".hngryinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".fmginfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".pvineinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".renoinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".spltminfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".vistainfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".waggeinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".zeffrinfo" ReplaceWith=".msg ZOA_HELPER *** ::: Climb Via SID :::" />
+		<CommandAlias Command=".tcord" ReplaceWith=".msg $atccallsign($1) ***  $dep $aircraft $2 $3 $4 $5 $6 $alt" />
+		<CommandAlias Command=".ls" ReplaceWith="add i s p 28l $1" />
+		<CommandAlias Command=".rs" ReplaceWith="add i s j 28r $1" />
+		<CommandAlias Command=".lm" ReplaceWith="add i m j 28l $1" />
+		<CommandAlias Command=".rm" ReplaceWith="add i m t 28r $1" />
+		<CommandAlias Command=".ll" ReplaceWith="add i l j 28l $1" />
+		<CommandAlias Command=".rl" ReplaceWith="add i l t 28r $1" />
+		<CommandAlias Command=".lh" ReplaceWith="add i h j 28l $1" />
+		<CommandAlias Command=".rh" ReplaceWith="add i h j 28r $1" />
+		<CommandAlias Command=".baytour" ReplaceWith="add v s p -130 7 2000" />
+		<CommandAlias Command=".north" ReplaceWith="add v s p -360 7 2000" />
+		<CommandAlias Command=".south" ReplaceWith="add v s p -180 7 2000" />
+		<CommandAlias Command=".east" ReplaceWith="add v s p -090 7 2000" />
+		<CommandAlias Command=".west" ReplaceWith="add v s p -270 7 2000" />
+	</CommandAliases>
+	<CommandAliasesLastImported>2018-07-31T22:56:36.3630982-07:00</CommandAliasesLastImported>
+	<VSCSLandLineSpecs>
+		<VSCSLandLineSpec FacilityID="CEDAR LAGUNA 145" SectorID="  ÷" LandLineType="Intercom" Prefix="" Suffix="" Frequency="28320" />
+		<VSCSLandLineSpec FacilityID="LAGUNA 179" SectorID="  ÷ BOULDR" LandLineType="Intercom" Prefix="" Suffix="" Frequency="33950" />
+		<VSCSLandLineSpec FacilityID="SEC/FR TOGA 146" SectorID="  ÷ MOR/TU" LandLineType="Intercom" Prefix="" Suffix="" Frequency="27150" />
+		<VSCSLandLineSpec FacilityID="SUT/DI 188" SectorID="  ÷ QUAKE RICHMD" LandLineType="Monitor" Prefix="" Suffix="" Frequency="35100" />
+		<VSCSLandLineSpec FacilityID="SUNOL" SectorID="  ÷" LandLineType="Intercom" Prefix="" Suffix="" Frequency="24800" />
+		<VSCSLandLineSpec FacilityID="PARDSE P/E/X 205" SectorID="  ÷ BUTTES" LandLineType="Intercom" Prefix="" Suffix="" Frequency="25400" />
+		<VSCSLandLineSpec FacilityID="NUGGET NCT 148" SectorID="  ÷ SILVER" LandLineType="Intercom" Prefix="" Suffix="" Frequency="26300" />
+		<VSCSLandLineSpec FacilityID="ATCT 141" SectorID="  ÷ RNO" LandLineType="Intercom" Prefix="" Suffix="" Frequency="25700" />
+		<VSCSLandLineSpec FacilityID="ONE 190" SectorID="  ÷ ZLA" LandLineType="Intercom" Prefix="" Suffix="" Frequency="32600" />
+		<VSCSLandLineSpec FacilityID="TWO 107" SectorID="  ÷ ZLA" LandLineType="Intercom" Prefix="" Suffix="" Frequency="32150" />
+		<VSCSLandLineSpec FacilityID="NEW 106" SectorID="  ÷ ZLA" LandLineType="Intercom" Prefix="" Suffix="" Frequency="25800" />
+		<VSCSLandLineSpec FacilityID="LOW 171" SectorID="  ÷ ZLC" LandLineType="Intercom" Prefix="" Suffix="" Frequency="20270" />
+		<VSCSLandLineSpec FacilityID="HIGH 900" SectorID="  ÷ ZLC " LandLineType="Intercom" Prefix="" Suffix="" Frequency="28550" />
+		<VSCSLandLineSpec FacilityID="LOW 170" SectorID="  ÷ ZSE" LandLineType="Intercom" Prefix="" Suffix="" Frequency="27150" />
+		<VSCSLandLineSpec FacilityID="HIGH 192" SectorID="  ÷ ZSE" LandLineType="Intercom" Prefix="" Suffix="" Frequency="26100" />
+		<VSCSLandLineSpec FacilityID="APCH 143" SectorID="  ÷ BFL" LandLineType="Intercom" Prefix="" Suffix="" Frequency="25400" />
+		<VSCSLandLineSpec FacilityID="134" SectorID="  ÷ JOSHUA" LandLineType="Intercom" Prefix="" Suffix="" Frequency="20100" />
+		<VSCSLandLineSpec FacilityID="500" SectorID="  ÷ NELLIS" LandLineType="Intercom" Prefix="" Suffix="" Frequency="28570" />
+		<VSCSLandLineSpec FacilityID="APCH" SectorID="  ÷ SBA" LandLineType="Intercom" Prefix="" Suffix="" Frequency="19200" />
+		<VSCSLandLineSpec FacilityID="149" SectorID="  ÷ NFL" LandLineType="Intercom" Prefix="" Suffix="" Frequency="20850" />
+		<VSCSLandLineSpec FacilityID="77 187" SectorID="  ÷ NLC" LandLineType="Intercom" Prefix="" Suffix="" Frequency="18150" />
+		<VSCSLandLineSpec FacilityID="APCH 184" SectorID="  ÷ SUU" LandLineType="Intercom" Prefix="" Suffix="" Frequency="26600" />
+		<VSCSLandLineSpec FacilityID="66" SectorID="  ÷  FAT" LandLineType="Intercom" Prefix="" Suffix="" Frequency="19600" />
+		<VSCSLandLineSpec FacilityID="113" SectorID="  ÷ APC" LandLineType="Intercom" Prefix="" Suffix="" Frequency="18700" />
+		<VSCSLandLineSpec FacilityID="971" SectorID="  ÷ CIC" LandLineType="Intercom" Prefix="" Suffix="" Frequency="21000" />
+		<VSCSLandLineSpec FacilityID="972" SectorID="  ÷ RDD" LandLineType="Intercom" Prefix="" Suffix="" Frequency="19800" />
+		<VSCSLandLineSpec FacilityID="155" SectorID="  ÷  STS" LandLineType="Intercom" Prefix="" Suffix="" Frequency="18500" />
+		<VSCSLandLineSpec FacilityID="D-10" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="28700" />
+		<VSCSLandLineSpec FacilityID="D-11" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="33700" />
+		<VSCSLandLineSpec FacilityID="D-13" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="27450" />
+		<VSCSLandLineSpec FacilityID="D-14" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="34550" />
+		<VSCSLandLineSpec FacilityID="D-15" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="32800" />
+		<VSCSLandLineSpec FacilityID="D-16" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="23800" />
+		<VSCSLandLineSpec FacilityID="D-22" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="26900" />
+		<VSCSLandLineSpec FacilityID="D-29" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="19750" />
+		<VSCSLandLineSpec FacilityID="D-30" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="27175" />
+		<VSCSLandLineSpec FacilityID="D-31" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="34970" />
+		<VSCSLandLineSpec FacilityID="D-32" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="32950" />
+		<VSCSLandLineSpec FacilityID="D-33" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="32050" />
+		<VSCSLandLineSpec FacilityID="D-34" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="34370" />
+		<VSCSLandLineSpec FacilityID="D-35" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="34150" />
+		<VSCSLandLineSpec FacilityID="D-36" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="19970" />
+		<VSCSLandLineSpec FacilityID="D-40" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="27800" />
+		<VSCSLandLineSpec FacilityID="D-41" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="25850" />
+		<VSCSLandLineSpec FacilityID="D-42" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="32200" />
+		<VSCSLandLineSpec FacilityID="D-43" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="34450" />
+		<VSCSLandLineSpec FacilityID="D-44" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="27950" />
+		<VSCSLandLineSpec FacilityID="D-45" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="28800" />
+		<VSCSLandLineSpec FacilityID="D-46" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="25750" />
+		<VSCSLandLineSpec FacilityID="D-04" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="31950" />
+		<VSCSLandLineSpec FacilityID="D-07" SectorID="" LandLineType="Override" Prefix="" Suffix="" Frequency="31950" />
+		<VSCSLandLineSpec FacilityID="R-43" SectorID="" LandLineType="Monitor" Prefix="" Suffix="" Frequency="35100" />
+		<VSCSLandLineSpec FacilityID="CWSU" SectorID="" LandLineType="Intercom" Prefix="" Suffix="" Frequency="0" />
+		<VSCSLandLineSpec FacilityID="AUTO  105" SectorID="SFO ARINC" LandLineType="Monitor" Prefix="" Suffix="" Frequency="33950" />
+	</VSCSLandLineSpecs>
+	<VSCSFrequencySpecs>
+		<VSCSFrequencySpec Label="ROM 7" Frequency="28700" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_CTR" />
+		<VSCSFrequencySpec Label="HAF 2" Frequency="33700" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_11_CTR" />
+		<VSCSFrequencySpec Label="HAF 1" Frequency="27450" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_13_CTR" />
+		<VSCSFrequencySpec Label="ROM 8" Frequency="34550" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_14_CTR" />
+		<VSCSFrequencySpec Label="FATA 21" Frequency="32800" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_15_CTR" />
+		<VSCSFrequencySpec Label="FAT 19" Frequency="23800" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_16_CTR" />
+		<VSCSFrequencySpec Label="QQAA 14" Frequency="21250" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_22_CTR" />
+		<VSCSFrequencySpec Label="QQAA 13" Frequency="19750" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_29_CTR" />
+		<VSCSFrequencySpec Label="MVAA 53" Frequency="27150" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_30_CTR" />
+		<VSCSFrequencySpec Label="RBL 24" Frequency="34970" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_31_CTR" />
+		<VSCSFrequencySpec Label="QQA 23" Frequency="32950" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_32_CTR" />
+		<VSCSFrequencySpec Label="TPH 34" Frequency="32050" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_33_CTR" />
+		<VSCSFrequencySpec Label="FATA 17" Frequency="34370" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_34_CTR" />
+		<VSCSFrequencySpec Label="HAF 4" Frequency="34150" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_35_CTR" />
+		<VSCSFrequencySpec Label="UKI 20" Frequency="19970" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_36_CTR" />
+		<VSCSFrequencySpec Label="UKI 38" Frequency="27800" VoiceServerAddress="rw.liveatc.net" VoiceChannelName="OAK_40_CTR" />
+		<VSCSFrequencySpec Label="QZW 44" Frequency="25850" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_41_CTR" />
+		<VSCSFrequencySpec Label="RBL 26" Frequency="32200" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="ZOA_42" />
+		<VSCSFrequencySpec Label="FLX 31" Frequency="34450" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_43_CTR" />
+		<VSCSFrequencySpec Label="SMF 40" Frequency="27950" VoiceServerAddress="rw.liveatc.net" VoiceChannelName="ZOA_44" />
+		<VSCSFrequencySpec Label="FLX 32" Frequency="28800" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="ZOA_45" />
+		<VSCSFrequencySpec Label="MVA 49" Frequency="25750" VoiceServerAddress="voice.radarcontact.me" VoiceChannelName="OAK_46_CTR" />
+		<VSCSFrequencySpec Frequency="0" />
+		<VSCSFrequencySpec Label="ZOA 60" Frequency="21500" VoiceServerAddress="emergency" VoiceChannelName="243.000" />
+	</VSCSFrequencySpecs>
+	<Local>
+		<NetworkRating>C1</NetworkRating>
+		<NetworkFacility>CTR</NetworkFacility>
+		<DefaultCallsign>OAK_CTR</DefaultCallsign>
+		<ObserverCallsign>ZOA_NA_OBS</ObserverCallsign>
+		<ControllerInfo />
+		<RequestedAltimeters>
+			<string>KSFO</string>
+			<string>KOAK</string>
+		</RequestedAltimeters>
+		<RequestedWeatherReports />
+		<SelectedBeaconCodes />
+		<DisplaySettings>
+			<DisplaySettings>
+				<TopDownMode>true</TopDownMode>
+				<ActiveGeoMap>ZOAHI</ActiveGeoMap>
+				<WindowProperties Maximized="true" FullScreen="true" TopMost="false" NormalBorderStyle="None">
+					<Location>
+						<X>287</X>
+						<Y>-763</Y>
+					</Location>
+					<Size>
+						<Width>1280</Width>
+						<Height>740</Height>
+					</Size>
+				</WindowProperties>
+				<Bookmarks />
+				<BrightnessMaster>100</BrightnessMaster>
+				<BrightnessBackground>1</BrightnessBackground>
+				<BrightnessFDB>80</BrightnessFDB>
+				<BrightnessLDB>60</BrightnessLDB>
+				<BrightnessTarget>60</BrightnessTarget>
+				<BrightnessHist>16</BrightnessHist>
+				<BrightnessButton>50</BrightnessButton>
+				<BrightnessBorder>40</BrightnessBorder>
+				<BrightnessToolbarBorder>40</BrightnessToolbarBorder>
+				<BrightnessToolbar>40</BrightnessToolbar>
+				<BrightnessText>90</BrightnessText>
+				<BrightnessMapGroup1>10</BrightnessMapGroup1>
+				<BrightnessMapGroup2>12</BrightnessMapGroup2>
+				<BrightnessMapGroup3>12</BrightnessMapGroup3>
+				<BrightnessMapGroup4>12</BrightnessMapGroup4>
+				<BrightnessMapGroup5>12</BrightnessMapGroup5>
+				<BrightnessMapGroup6>12</BrightnessMapGroup6>
+				<BrightnessMapGroup7>12</BrightnessMapGroup7>
+				<BrightnessMapGroup8>12</BrightnessMapGroup8>
+				<BrightnessMapGroup9>12</BrightnessMapGroup9>
+				<BrightnessMapGroup10>12</BrightnessMapGroup10>
+				<BrightnessMapGroup11>12</BrightnessMapGroup11>
+				<BrightnessMapGroup12>12</BrightnessMapGroup12>
+				<BrightnessMapGroup13>12</BrightnessMapGroup13>
+				<BrightnessMapGroup14>12</BrightnessMapGroup14>
+				<BrightnessMapGroup15>12</BrightnessMapGroup15>
+				<BrightnessMapGroup16>12</BrightnessMapGroup16>
+				<BrightnessMapGroup17>12</BrightnessMapGroup17>
+				<BrightnessMapGroup18>12</BrightnessMapGroup18>
+				<BrightnessMapGroup19>12</BrightnessMapGroup19>
+				<BrightnessMapGroup20>12</BrightnessMapGroup20>
+				<BrightnessDwell>20</BrightnessDwell>
+				<BrightnessLine4>-20</BrightnessLine4>
+				<BrightnessSLDB>20</BrightnessSLDB>
+				<FDBFontSize>1</FDBFontSize>
+				<Line4FontSize>1</Line4FontSize>
+				<LDBFontSize>1</LDBFontSize>
+				<CursorSize>1</CursorSize>
+				<ClockLocation>
+					<X>140</X>
+					<Y>100</Y>
+				</ClockLocation>
+				<ClockAnchoredAtBottom>false</ClockAnchoredAtBottom>
+				<MCALocation>
+					<X>37</X>
+					<Y>311</Y>
+				</MCALocation>
+				<MCAAnchoredAtBottom>false</MCAAnchoredAtBottom>
+				<MCACharacterWidth>30</MCACharacterWidth>
+				<RALocation>
+					<X>30</X>
+					<Y>543</Y>
+				</RALocation>
+				<RAAnchoredAtBottom>true</RAAnchoredAtBottom>
+				<RACharacterWidth>28</RACharacterWidth>
+				<AltimeterListVisible>true</AltimeterListVisible>
+				<AltimeterListLocation>
+					<X>0</X>
+					<Y>146</Y>
+				</AltimeterListLocation>
+				<AltimeterListAnchoredAtBottom>false</AltimeterListAnchoredAtBottom>
+				<BeaconCodeListVisible>true</BeaconCodeListVisible>
+				<BeaconCodeListLocation>
+					<X>212</X>
+					<Y>146</Y>
+				</BeaconCodeListLocation>
+				<BeaconCodeListAnchoredAtBottom>false</BeaconCodeListAnchoredAtBottom>
+				<WeatherReportListVisible>true</WeatherReportListVisible>
+				<WeatherReportListLocation>
+					<X>353</X>
+					<Y>133</Y>
+				</WeatherReportListLocation>
+				<WeatherReportListAnchoredAtBottom>false</WeatherReportListAnchoredAtBottom>
+				<ChecklistLocation>
+					<X>668</X>
+					<Y>146</Y>
+				</ChecklistLocation>
+				<ChecklistAnchoredAtBottom>false</ChecklistAnchoredAtBottom>
+				<DisplayFilters>Map18 Map20 InboundList DepartureList HoldList AllLDBs SelectLDBs AllPrim NonModeC SelectBeacon</DisplayFilters>
+				<FDBFields>ACID AssignedAlt ReportedAlt CID EstablishedBeacon NonRVSM LeaderLine PositionSymbol Destination</FDBFields>
+				<DisplayRange>270</DisplayRange>
+				<AltitudeLimitsTargets>
+					<Low>0</Low>
+					<High>999</High>
+				</AltitudeLimitsTargets>
+				<AltitudeLimitsLDBs>
+					<Low>0</Low>
+					<High>999</High>
+				</AltitudeLimitsLDBs>
+				<DisplayCenter Lon="-121.74379040484656" Lat="37.661864048511241" />
+				<VectorLength>1</VectorLength>
+				<HistoryCount>5</HistoryCount>
+				<LeaderLength>1</LeaderLength>
+				<VisibleMarkers />
+				<VisibleCenterlines />
+				<TearOffButtons>
+					<MenuButtonSettings Function="ToolbarSubmenu" X="20" Y="100" />
+					<MenuButtonSettings Function="ViewsSubmenu" X="19" Y="36" />
+				</TearOffButtons>
+				<MasterToolbarVisible>true</MasterToolbarVisible>
+				<DeclutterLevel>0</DeclutterLevel>
+			</DisplaySettings>
+		</DisplaySettings>
+	</Local>
+	<IFRSquawkCodeRange Low="3201" High="3377" />
+	<VFRSquawkCodeRange Low="4201" High="4277" />
+	<EmergencyChecklist>
+		<string>A/C ID/TYPE</string>
+		<string>NATURE OF EMERG</string>
+		<string>PILOT'S DESIRES</string>
+		<string>A/C ALTITUDE</string>
+		<string>FUEL</string>
+		<string>WX PILOT/REPORT</string>
+		<string>IFR QUALIFIED</string>
+		<string>LAST KNOWN PSN</string>
+		<string>HDG FRM LST PSN</string>
+		<string />
+	</EmergencyChecklist>
+	<PositionReliefChecklist>
+		<string>SIA DATA</string>
+		<string>EQUIP STATUS</string>
+		<string>WEATHER/TRENDS</string>
+		<string>ALTM/TRENDS</string>
+		<string>ARPT/APCH/INFO</string>
+		<string>AIRSPACE RSTRNS</string>
+		<string>SPL ACTIVITIES</string>
+		<string>FLOW CONTROL</string>
+		<string>TRAFFIC </string>
+		<string>CURRENT/PENDING</string>
+	</PositionReliefChecklist>
+</Facility>

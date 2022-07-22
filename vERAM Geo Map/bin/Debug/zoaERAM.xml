@@ -1,0 +1,61 @@
+﻿<GeoMapSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" DefaultMap="CERTMAP">
+	<GeoMap Name="CERTMAP" LabelLine1="RADAR" LabelLine2="MAP" BcgMenuName="DEFAULT" FilterMenuName="DEFAULT">
+		<Objects>
+			<GeoMapObject Description="Object #1 (SupplementalLine)" TdmOnly="false">
+				<LineDefaults Bcg="2" Filters="20" Style="Solid" Thickness="1" />
+				<TextDefaults Bcg="8" Filters="8" Size="1" Underline="false" Opaque="true" XOffset="0" YOffset="0" />
+				<Elements>
+					<Element xsi:type="Line" Filters="" StartLat="40.655814" StartLon="-116.277158" EndLat="40.657839" EndLon="-116.272375" />
+					<Element xsi:type="Line" Filters="" StartLat="40.657839" StartLon="-116.272375" EndLat="40.655039" EndLon="-116.27035" />
+					<Element xsi:type="Line" Filters="" StartLat="40.655039" StartLon="-116.27035" EndLat="40.653039" EndLon="-116.275147" />
+					<Element xsi:type="Line" Filters="" StartLat="40.653039" StartLon="-116.275147" EndLat="40.655814" EndLon="-116.277158" />
+					<Element xsi:type="Text" Filters="" Lat="40.653889" Lon="-116.272639" Lines="BAM-PEB1" />
+				</Elements>
+			</GeoMapObject>
+			<GeoMapObject Description="Object #2 (SupplementalLine)" TdmOnly="false">
+				<LineDefaults Bcg="2" Filters="20" Style="Solid" Thickness="1" />
+				<TextDefaults Bcg="8" Filters="8" Size="1" Underline="false" Opaque="true" XOffset="0" YOffset="0" />
+				<Elements>
+					<Element xsi:type="Line" Filters="" StartLat="40.452281" StartLon="-116.866508" EndLat="40.454358" EndLon="-116.866383" />
+					<Element xsi:type="Line" Filters="" StartLat="40.454358" StartLon="-116.866383" EndLat="40.454264" EndLon="-116.863661" />
+					<Element xsi:type="Line" Filters="" StartLat="40.454264" StartLon="-116.863661" EndLat="40.452186" EndLon="-116.863786" />
+					<Element xsi:type="Line" Filters="" StartLat="40.452186" StartLon="-116.863786" EndLat="40.452281" EndLon="-116.866508" />
+					<Element xsi:type="Text" Filters="" Lat="40.454264" Lon="-116.863661" Lines="BAM-SRTQC" />
+				</Elements>
+			</GeoMapObject>
+			<GeoMapObject Description="Object #3 (SupplementalLine)" TdmOnly="false">
+				<LineDefaults Bcg="2" Filters="20" Style="Solid" Thickness="1" />
+				<TextDefaults Bcg="8" Filters="8" Size="1" Underline="false" Opaque="true" XOffset="0" YOffset="0" />
+				<Elements>
+					<Element xsi:type="Line" Filters="" StartLat="40.352358" StartLon="-116.872436" EndLat="40.354439" EndLon="-116.872311" />
+					<Element xsi:type="Line" Filters="" StartLat="40.354439" StartLon="-116.872311" EndLat="40.354344" EndLon="-116.869592" />
+					<Element xsi:type="Line" Filters="" StartLat="40.354344" StartLon="-116.869592" EndLat="40.352264" EndLon="-116.869717" />
+					<Element xsi:type="Line" Filters="" StartLat="40.352264" StartLon="-116.869717" EndLat="40.352358" EndLon="-116.872436" />
+					<Element xsi:type="Text" Filters="" Lat="40.354439" Lon="-116.872311" Lines="BAM-BRTQC" />
+				</Elements>
+			</GeoMapObject>
+			<GeoMapObject Description="Object #4 (SupplementalLine)" TdmOnly="false">
+				<LineDefaults Bcg="2" Filters="20" Style="Solid" Thickness="1" />
+				<TextDefaults Bcg="8" Filters="8" Size="1" Underline="false" Opaque="true" XOffset="0" YOffset="0" />
+				<Elements>
+					<Element xsi:type="Line" Filters="" StartLat="41.491042" StartLon="-115.670592" EndLat="41.494222" EndLon="-115.667011" />
+					<Element xsi:type="Line" Filters="" StartLat="41.494222" StartLon="-115.667011" EndLat="41.488569" EndLon="-115.658183" />
+					<Element xsi:type="Line" Filters="" StartLat="41.488569" StartLon="-115.658183" EndLat="41.485406" EndLon="-115.661792" />
+					<Element xsi:type="Line" Filters="" StartLat="41.485406" StartLon="-115.661792" EndLat="41.491042" EndLon="-115.670592" />
+					<Element xsi:type="Text" Filters="" Lat="41.486806" Lon="-115.659861" Lines="BAM-PEB2" />
+				</Elements>
+			</GeoMapObject>
+			<GeoMapObject Description="Object #5 (SupplementalLine)" TdmOnly="false">
+				<LineDefaults Bcg="2" Filters="20" Style="Solid" Thickness="1" />
+				<TextDefaults Bcg="8" Filters="8" Size="1" Underline="false" Opaque="true" XOffset="0" YOffset="0" />
+				<Elements>
+					<Element xsi:type="Line" Filters="" StartLat="39.354514" StartLon="-118.725564" EndLat="39.356597" EndLon="-118.725497" />
+					<Element xsi:type="Line" Filters="" StartLat="39.356597" StartLon="-118.725497" EndLat="39.356547" EndLon="-118.722814" />
+					<Element xsi:type="Line" Filters="" StartLat="39.356547" StartLon="-118.722814" EndLat="39.354464" EndLon="-118.722878" />
+					<Element xsi:type="Line" Filters="" StartLat="39.354464" StartLon="-118.722878" EndLat="39.354514" EndLon="-118.725564" />
+					<Element xsi:type="Text" Filters="" Lat="39.356547" Lon="-118.722814" Lines="FLX-BRTQC" />
+				</Elements>
+			</GeoMapObject>
+		</Objects>
+	</GeoMap>
+</GeoMapSet>
