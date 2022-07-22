@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vERAM Geo Map", "vERAM Geo Map\vERAM Geo Map.csproj", "{2D0E5954-5639-44C8-B2EC-CBAECD23FC77}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{1DA0C499-B933-4C84-963E-E012E2DB404A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D0E5954-5639-44C8-B2EC-CBAECD23FC77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0E5954-5639-44C8-B2EC-CBAECD23FC77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0E5954-5639-44C8-B2EC-CBAECD23FC77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0E5954-5639-44C8-B2EC-CBAECD23FC77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DA0C499-B933-4C84-963E-E012E2DB404A}.Debug|Any CPU.ActiveCfg = Debug
+		{1DA0C499-B933-4C84-963E-E012E2DB404A}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AE59BFA-059C-4D9C-9E7A-134BEEBD441F}
+	EndGlobalSection
+EndGlobal
